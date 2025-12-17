@@ -1,0 +1,270 @@
+{
+  "brands": [
+    {
+      "id": "belle-vie",
+      "name": "Belle Vie",
+      "slogan": "Gourmand & Savoureux",
+      "logo": "/images/brands/belle-vie.png",
+      "description": {
+        "fr": "Belle Vie est une marque de produits alimentaires de qualité, dédiée à apporter le meilleur de la gastronomie à votre table. Avec une gamme variée allant des conserves aux boissons, Belle Vie s'engage à offrir des produits savoureux et authentiques pour toute la famille.",
+        "en": "Belle Vie is a quality food brand dedicated to bringing the best of gastronomy to your table. With a diverse range from canned goods to beverages, Belle Vie is committed to offering delicious and authentic products for the whole family."
+      },
+      "country": "France",
+      "founded": "2010"
+    }
+  ],
+  "categories": [
+    {
+      "id": "beverages",
+      "icon": "Coffee"
+    },
+    {
+      "id": "canned",
+      "icon": "Package"
+    },
+    {
+      "id": "condiments",
+      "icon": "Droplets"
+    },
+    {
+      "id": "grains",
+      "icon": "Wheat"
+    }
+  ],
+  "products": [
+    {
+      "id": "the-vert-premium",
+      "brandId": "belle-vie",
+      "category": "beverages",
+      "images": ["/images/products/1.jpg"],
+      "name": {
+        "fr": "Thé Vert Premium",
+        "en": "Premium Green Tea"
+      },
+      "shortDescription": {
+        "fr": "Thé vert 100% naturel, qualité premium pour un moment de détente",
+        "en": "100% natural green tea, premium quality for a relaxing moment"
+      },
+      "description": {
+        "fr": "Notre Thé Vert Premium Belle Vie est soigneusement sélectionné pour vous offrir une expérience gustative exceptionnelle. 100% naturel, ce thé de qualité supérieure libère des arômes délicats et une saveur rafraîchissante. Idéal pour accompagner vos moments de détente ou pour préparer un thé à la menthe traditionnel. Riche en antioxydants, il contribue à votre bien-être au quotidien.",
+        "en": "Our Belle Vie Premium Green Tea is carefully selected to offer you an exceptional taste experience. 100% natural, this superior quality tea releases delicate aromas and a refreshing flavor. Ideal for your relaxation moments or for preparing traditional mint tea. Rich in antioxidants, it contributes to your daily well-being."
+      },
+      "ingredients": {
+        "fr": "Thé vert 100% (Camellia sinensis)",
+        "en": "100% Green tea (Camellia sinensis)"
+      },
+      "nutritionalInfo": {
+        "energy": "1 kcal/100ml infusé",
+        "proteins": "0g",
+        "carbs": "0g",
+        "fats": "0g",
+        "fiber": "0g"
+      },
+      "packaging": ["25g", "100g", "250g"],
+      "origin": "Chine",
+      "certification": ["100% Naturel"],
+      "shelfLife": "24 mois",
+      "reference": "41022"
+    },
+    {
+      "id": "double-concentre-tomate",
+      "brandId": "belle-vie",
+      "category": "canned",
+      "images": ["/images/products/2.jpg"],
+      "name": {
+        "fr": "Double Concentré de Tomate",
+        "en": "Double Tomato Concentrate"
+      },
+      "shortDescription": {
+        "fr": "Double concentré de tomate 28% minimum, idéal pour vos sauces et plats mijotés",
+        "en": "Double tomato concentrate 28% minimum, ideal for your sauces and stews"
+      },
+      "description": {
+        "fr": "Le Double Concentré de Tomate Belle Vie est élaboré à partir de tomates mûries au soleil, soigneusement sélectionnées pour leur saveur intense. Avec une concentration minimale de 28%, il apporte une richesse et une profondeur incomparables à tous vos plats. Parfait pour les sauces, les soupes, les ragoûts et les plats mijotés africains traditionnels.",
+        "en": "Belle Vie Double Tomato Concentrate is made from sun-ripened tomatoes, carefully selected for their intense flavor. With a minimum concentration of 28%, it brings unparalleled richness and depth to all your dishes. Perfect for sauces, soups, stews and traditional African slow-cooked dishes."
+      },
+      "ingredients": {
+        "fr": "Concentré de tomate (28% minimum de matière sèche)",
+        "en": "Tomato concentrate (28% minimum dry matter)"
+      },
+      "nutritionalInfo": {
+        "energy": "85 kcal/100g",
+        "proteins": "4.5g",
+        "carbs": "15g",
+        "fats": "0.5g",
+        "fiber": "3g"
+      },
+      "packaging": ["70g", "400g", "800g", "2200g"],
+      "origin": "Italie",
+      "certification": ["ISO 22000", "HACCP"],
+      "shelfLife": "36 mois"
+    },
+    {
+      "id": "sucre-blanc",
+      "brandId": "belle-vie",
+      "category": "grains",
+      "images": ["/images/products/3.jpg", "/images/products/4.jpg"],
+      "name": {
+        "fr": "Sucre Blanc",
+        "en": "White Sugar"
+      },
+      "shortDescription": {
+        "fr": "Sucre blanc de qualité supérieure, parfait pour toutes vos préparations",
+        "en": "Premium white sugar, perfect for all your preparations"
+      },
+      "description": {
+        "fr": "Le Sucre Belle Vie est un sucre blanc de qualité supérieure, raffiné avec soin pour une pureté optimale. Sa granulométrie régulière garantit une dissolution parfaite dans toutes vos préparations : pâtisseries, boissons chaudes ou froides, confitures et desserts. Conditionné en sacs solides pour une conservation optimale.",
+        "en": "Belle Vie Sugar is a premium white sugar, carefully refined for optimal purity. Its regular grain size guarantees perfect dissolution in all your preparations: pastries, hot or cold drinks, jams and desserts. Packaged in sturdy bags for optimal preservation."
+      },
+      "ingredients": {
+        "fr": "Sucre blanc 100% (saccharose)",
+        "en": "100% White sugar (sucrose)"
+      },
+      "nutritionalInfo": {
+        "energy": "400 kcal/100g",
+        "proteins": "0g",
+        "carbs": "100g",
+        "fats": "0g",
+        "fiber": "0g"
+      },
+      "packaging": ["1kg", "5kg", "10kg", "25kg", "50kg"],
+      "origin": "Brésil",
+      "certification": ["ISO 22000"],
+      "shelfLife": "24 mois"
+    },
+    {
+      "id": "mayonnaise",
+      "brandId": "belle-vie",
+      "category": "condiments",
+      "images": ["/images/products/5.jpg"],
+      "name": {
+        "fr": "Mayonnaise",
+        "en": "Mayonnaise"
+      },
+      "shortDescription": {
+        "fr": "Mayonnaise onctueuse et savoureuse, recette traditionnelle",
+        "en": "Creamy and tasty mayonnaise, traditional recipe"
+      },
+      "description": {
+        "fr": "La Mayonnaise Belle Vie est préparée selon une recette traditionnelle pour une texture onctueuse et un goût authentique. Élaborée avec des ingrédients de qualité, elle accompagne parfaitement vos salades, sandwichs, frites et grillades. Sa consistance idéale en fait un incontournable de votre cuisine quotidienne.",
+        "en": "Belle Vie Mayonnaise is prepared according to a traditional recipe for a creamy texture and authentic taste. Made with quality ingredients, it perfectly accompanies your salads, sandwiches, fries and grills. Its ideal consistency makes it a must-have in your daily cooking."
+      },
+      "ingredients": {
+        "fr": "Huile végétale, jaune d'œuf, vinaigre, moutarde, sel, sucre, épaississant",
+        "en": "Vegetable oil, egg yolk, vinegar, mustard, salt, sugar, thickener"
+      },
+      "nutritionalInfo": {
+        "energy": "680 kcal/100g",
+        "proteins": "1g",
+        "carbs": "2g",
+        "fats": "75g",
+        "fiber": "0g"
+      },
+      "packaging": ["175g", "350g", "500g"],
+      "origin": "France",
+      "certification": ["ISO 22000"],
+      "shelfLife": "12 mois"
+    },
+    {
+      "id": "sardines-huile-vegetale",
+      "brandId": "belle-vie",
+      "category": "canned",
+      "images": ["/images/products/6.jpg"],
+      "name": {
+        "fr": "Sardines à l'Huile Végétale",
+        "en": "Sardines in Vegetable Oil"
+      },
+      "shortDescription": {
+        "fr": "Sardines de qualité premium, riches en Oméga 3, certifiées Halal",
+        "en": "Premium quality sardines, rich in Omega 3, Halal certified"
+      },
+      "description": {
+        "fr": "Les Sardines Belle Vie sont sélectionnées pour leur fraîcheur et leur qualité premium. Conservées dans une huile végétale de première qualité, elles sont riches en Oméga 3, essentiels pour votre santé cardiovasculaire. Certifiées Halal, elles conviennent à tous. Parfaites en salade, sur des toasts ou dans vos plats cuisinés.",
+        "en": "Belle Vie Sardines are selected for their freshness and premium quality. Preserved in first-quality vegetable oil, they are rich in Omega 3, essential for your cardiovascular health. Halal certified, they are suitable for everyone. Perfect in salads, on toast or in your cooked dishes."
+      },
+      "ingredients": {
+        "fr": "Sardines (60%), huile végétale, sel",
+        "en": "Sardines (60%), vegetable oil, salt"
+      },
+      "nutritionalInfo": {
+        "energy": "220 kcal/100g",
+        "proteins": "24g",
+        "carbs": "0g",
+        "fats": "14g",
+        "fiber": "0g"
+      },
+      "packaging": ["125g"],
+      "netWeight": "125g",
+      "drainedWeight": "90g",
+      "origin": "Maroc",
+      "certification": ["Halal", "Riche en Oméga 3", "Premium Quality"],
+      "shelfLife": "48 mois"
+    },
+    {
+      "id": "cafe-soluble",
+      "brandId": "belle-vie",
+      "category": "beverages",
+      "images": ["/images/products/7.jpg"],
+      "name": {
+        "fr": "Café Soluble",
+        "en": "Instant Coffee"
+      },
+      "shortDescription": {
+        "fr": "Café soluble de qualité, arôme riche et saveur intense",
+        "en": "Quality instant coffee, rich aroma and intense flavor"
+      },
+      "description": {
+        "fr": "Le Café Soluble Belle Vie est élaboré à partir de grains de café soigneusement sélectionnés et torréfiés pour révéler un arôme riche et une saveur intense. Sa dissolution instantanée vous permet de profiter d'un café de qualité en quelques secondes. Idéal pour commencer la journée du bon pied ou pour une pause café revigorante.",
+        "en": "Belle Vie Instant Coffee is made from carefully selected and roasted coffee beans to reveal a rich aroma and intense flavor. Its instant dissolution allows you to enjoy quality coffee in seconds. Ideal for starting the day right or for an invigorating coffee break."
+      },
+      "ingredients": {
+        "fr": "Café soluble 100% (Coffea arabica et robusta)",
+        "en": "100% Instant coffee (Coffea arabica and robusta)"
+      },
+      "nutritionalInfo": {
+        "energy": "2 kcal/100ml préparé",
+        "proteins": "0.1g",
+        "carbs": "0g",
+        "fats": "0g",
+        "fiber": "0g"
+      },
+      "packaging": ["50g", "100g", "200g"],
+      "origin": "Côte d'Ivoire",
+      "certification": ["ISO 22000"],
+      "shelfLife": "24 mois"
+    },
+    {
+      "id": "ketchup",
+      "brandId": "belle-vie",
+      "category": "condiments",
+      "images": ["/images/products/8.jpg"],
+      "name": {
+        "fr": "Ketchup",
+        "en": "Ketchup"
+      },
+      "shortDescription": {
+        "fr": "Ketchup savoureux aux tomates, parfait pour accompagner vos repas",
+        "en": "Tasty tomato ketchup, perfect to accompany your meals"
+      },
+      "description": {
+        "fr": "Le Ketchup Belle Vie est préparé avec des tomates de qualité pour un goût authentique et équilibré. Sa texture onctueuse et son assaisonnement parfait en font le compagnon idéal de vos frites, burgers, grillades et snacks. Un classique intemporel qui plaît à toute la famille.",
+        "en": "Belle Vie Ketchup is prepared with quality tomatoes for an authentic and balanced taste. Its smooth texture and perfect seasoning make it the ideal companion for your fries, burgers, grills and snacks. A timeless classic that pleases the whole family."
+      },
+      "ingredients": {
+        "fr": "Concentré de tomate, sucre, vinaigre, sel, épices, arômes naturels",
+        "en": "Tomato concentrate, sugar, vinegar, salt, spices, natural flavors"
+      },
+      "nutritionalInfo": {
+        "energy": "110 kcal/100g",
+        "proteins": "1.5g",
+        "carbs": "25g",
+        "fats": "0.5g",
+        "fiber": "0.5g"
+      },
+      "packaging": ["340g", "500g", "1kg"],
+      "origin": "France",
+      "certification": ["ISO 22000"],
+      "shelfLife": "18 mois"
+    }
+  ]
+}
