@@ -47,7 +47,7 @@ export default function HeroSlider() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+          transition={{ duration: 0.8, ease: "easeInOut" as const }}
           className="absolute inset-0"
         >
           <motion.div
@@ -80,7 +80,7 @@ export default function HeroSlider() {
                 className="space-y-5 flex flex-col items-center"
               >
                 <motion.div
-                  variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } } }}
+                  variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } } }}
                   className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white"
                 >
                   <span className="w-2 h-2 rounded-full bg-orange animate-pulse" />
@@ -88,21 +88,21 @@ export default function HeroSlider() {
                 </motion.div>
 
                 <motion.h1
-                  variants={{ hidden: { opacity: 0, y: 40 }, visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" } } }}
+                  variants={{ hidden: { opacity: 0, y: 40 }, visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: "easeOut" as const } } }}
                   className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-[1.1] font-heading"
                 >
                   {t(`slides.${current}.title`)}
                 </motion.h1>
 
                 <motion.p
-                  variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } } }}
+                  variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } } }}
                   className="text-base sm:text-lg text-white/80 max-w-2xl leading-relaxed"
                 >
                   {t(`slides.${current}.subtitle`)}
                 </motion.p>
 
                 <motion.div
-                  variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } } }}
+                  variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } } }}
                   className="flex flex-wrap justify-center gap-4 pt-2"
                 >
                   <Link
