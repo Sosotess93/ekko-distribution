@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #FAFAF7;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F3F1EC;
+  --color-border: #E5E2DB;
+  --color-green: #0C3B2E;
+  --color-green-light: #1A7A6D;
+  --color-orange: #E2762B;
+  --color-orange-hover: #CC6620;
+  --color-teal: #1A7A6D;
+  --color-text: #1A1A1A;
+  --color-text-muted: #6B7280;
+  --color-text-dimmed: #9CA3AF;
+
+  /* Legacy aliases */
+  --color-dark-green: #0C3B2E;
+  --color-amber: #E2762B;
+  --color-amber-hover: #CC6620;
+  --color-beige: #F3F1EC;
+  --color-golden: #E2762B;
+  --color-surface-light: #F3F1EC;
+
+  --font-family-heading: "Montserrat", sans-serif;
+  --font-family-body: "Open Sans", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-family-body);
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-heading);
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-orange text-white px-6 py-3 rounded-lg font-semibold
+           transition-all duration-300 hover:bg-orange-hover hover:shadow-lg
+           hover:shadow-orange/20 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply bg-green text-white px-6 py-3 rounded-lg font-semibold
+           transition-all duration-300 hover:bg-green-light hover:shadow-lg
+           hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-outline {
+    @apply border border-green text-green px-6 py-3 rounded-lg
+           font-semibold transition-all duration-300 hover:bg-green
+           hover:text-white hover:shadow-lg;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 px-4 md:px-8;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+}

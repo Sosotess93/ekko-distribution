@@ -34,6 +34,7 @@
   "products": [
     {
       "id": "the-vert-premium",
+      "slug": { "fr": "the-vert-premium", "en": "premium-green-tea" },
       "brandId": "belle-vie",
       "category": "beverages",
       "images": ["/images/products/1.jpg"],
@@ -68,6 +69,7 @@
     },
     {
       "id": "double-concentre-tomate",
+      "slug": { "fr": "double-concentre-tomate", "en": "double-tomato-concentrate" },
       "brandId": "belle-vie",
       "category": "canned",
       "images": ["/images/products/2.jpg"],
@@ -101,6 +103,7 @@
     },
     {
       "id": "sucre-blanc",
+      "slug": { "fr": "sucre-blanc", "en": "white-sugar" },
       "brandId": "belle-vie",
       "category": "grains",
       "images": ["/images/products/3.jpg", "/images/products/4.jpg"],
@@ -134,6 +137,7 @@
     },
     {
       "id": "mayonnaise",
+      "slug": { "fr": "mayonnaise", "en": "mayonnaise" },
       "brandId": "belle-vie",
       "category": "condiments",
       "images": ["/images/products/5.jpg"],
@@ -167,6 +171,7 @@
     },
     {
       "id": "sardines-huile-vegetale",
+      "slug": { "fr": "sardines-huile-vegetale", "en": "sardines-vegetable-oil" },
       "brandId": "belle-vie",
       "category": "canned",
       "images": ["/images/products/6.jpg"],
@@ -202,6 +207,7 @@
     },
     {
       "id": "cafe-soluble",
+      "slug": { "fr": "cafe-soluble", "en": "instant-coffee" },
       "brandId": "belle-vie",
       "category": "beverages",
       "images": ["/images/products/7.jpg"],
@@ -235,6 +241,7 @@
     },
     {
       "id": "ketchup",
+      "slug": { "fr": "ketchup", "en": "ketchup" },
       "brandId": "belle-vie",
       "category": "condiments",
       "images": ["/images/products/8.jpg"],
@@ -268,3 +275,4 @@
     }
   ]
 }
+
