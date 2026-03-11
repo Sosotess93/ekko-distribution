@@ -40,7 +40,7 @@ export default function HeroSlider() {
 
   return (
     <section
-      className="relative h-[55vh] md:h-[60vh] w-full overflow-hidden"
+      className="relative h-[65vh] md:h-[75vh] w-full overflow-hidden"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
