@@ -8,9 +8,12 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 const SLIDE_IMAGES = [
-  "/images/hero/slide-1.jpg",
-  "/images/hero/slide-2.jpg",
-  "/images/hero/slide-3.jpg",
+  "/images/hero/slide-1.jpeg",
+  "/images/hero/slide-2.jpeg",
+  "/images/hero/slide-3.jpeg",
+  "/images/hero/slide-4.jpeg",
+  "/images/hero/slide-5.jpeg",
+  "/images/hero/slide-6.jpeg",
 ];
 
 const SLIDE_DURATION = 5000;
