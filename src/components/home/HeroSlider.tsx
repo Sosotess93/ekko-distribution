@@ -40,7 +40,7 @@ export default function HeroSlider() {
 
   return (
     <section
-      className="relative h-[75vh] md:h-[80vh] w-full overflow-hidden"
+      className="relative h-[55vh] md:h-[60vh] w-full overflow-hidden"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -53,14 +53,9 @@ export default function HeroSlider() {
           transition={{ duration: 0.8, ease: "easeInOut" as const }}
           className="absolute inset-0"
         >
-          <motion.div
-            initial={{ scale: 1 }}
-            animate={{ scale: 1.1 }}
-            transition={{ duration: SLIDE_DURATION / 1000 + 1, ease: "linear" }}
-            className="absolute inset-0"
-          >
-            <Image src={SLIDE_IMAGES[current]} alt="" fill sizes="100vw" className="object-cover" priority={current === 0} quality={85} />
-          </motion.div>
+          <div className="absolute inset-0">
+            <Image src={SLIDE_IMAGES[current]} alt="" fill sizes="100vw" className="object-cover object-center" priority={current === 0} quality={85} />
+          </div>
         </motion.div>
       </AnimatePresence>
 
