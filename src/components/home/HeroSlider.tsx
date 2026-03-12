@@ -14,6 +14,7 @@ const SLIDE_IMAGES = [
   "/images/hero/slide-4.jpeg",
   "/images/hero/slide-5.jpeg",
   "/images/hero/slide-6.jpeg",
+  "/images/hero/slide-7.jpeg",
 ];
 
 const SLIDE_DURATION = 5000;
