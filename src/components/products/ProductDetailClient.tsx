@@ -11,6 +11,7 @@ import {
   Clock,
   Drumstick,
   Droplets,
+  Wheat,
   Egg,
   Coffee,
   ArrowRight,
@@ -32,6 +33,7 @@ const categoryIcons: Record<
 > = {
   poultry: Drumstick,
   oils: Droplets,
+  flour: Wheat,
   eggs: Egg,
   beverages: Coffee,
 };

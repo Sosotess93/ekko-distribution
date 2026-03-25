@@ -46,6 +46,7 @@
     "categories": {
       "poultry": "Poultry",
       "oils": "Oils",
+      "flour": "Flour",
       "eggs": "Eggs",
       "beverages": "Beverages"
     },
@@ -160,7 +161,7 @@
     "title": "Have a project in mind?",
     "subtitle": "Let's discuss your needs.",
     "cta": "Start a project",
-    "call": "Call us"
+    "whatsapp": "WhatsApp Message"
   }
 }
 

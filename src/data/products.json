@@ -23,6 +23,10 @@
       "icon": "Droplets"
     },
     {
+      "id": "flour",
+      "icon": "Wheat"
+    },
+    {
       "id": "eggs",
       "icon": "Egg"
     },
@@ -44,16 +48,16 @@
         "/images/products/belle-vie/poulet-entier/carton-halal-poulet-entier.jpeg"
       ],
       "name": {
-        "fr": "Poulet Entier Surgelé",
+        "fr": "Poulet Entier Congelé",
         "en": "Whole Frozen Chicken"
       },
       "shortDescription": {
-        "fr": "Poulet entier certifié Halal, surgelé pour une fraîcheur optimale",
-        "en": "Halal-certified whole chicken, frozen for optimal freshness"
+        "fr": "Gamme 700g – 2500g, sac plastique, congélation IPBF",
+        "en": "Range 700g – 2500g, plastic bag, IPBF freezing"
       },
       "description": {
-        "fr": "Le Poulet Entier Belle Vie est rigoureusement sélectionné et certifié Halal. Surgelé immédiatement après l'abattage pour préserver toute sa fraîcheur et ses qualités nutritionnelles. Idéal pour les repas en famille, rôti au four ou en plat mijoté. Parce que derrière chaque repas, il y a une famille qui se réunit.",
-        "en": "Belle Vie Whole Chicken is rigorously selected and Halal certified. Frozen immediately after slaughter to preserve all its freshness and nutritional qualities. Ideal for family meals, roasted or slow-cooked. Because behind every meal, there is a family coming together."
+        "fr": "Le Poulet Entier Congelé Belle Vie est rigoureusement sélectionné et certifié Halal. Disponible de 700g à 2500g en sac plastique, congélation IPBF. Conditionné en cartons de 10 à 14 pièces selon le calibre. Idéal pour les repas en famille, rôti au four ou en plat mijoté.",
+        "en": "Belle Vie Whole Frozen Chicken is rigorously selected and Halal certified. Available from 700g to 2500g in plastic bag, IPBF freezing. Packed in cartons of 10 to 14 pieces depending on size. Ideal for family meals, roasted or slow-cooked."
       },
       "ingredients": {
         "fr": "Poulet entier 100%",
@@ -66,83 +70,8 @@
         "fats": "15g",
         "fiber": "0g"
       },
-      "packaging": ["900g", "1000g", "1100g", "1200g", "1300g"],
-      "origin": "Brésil",
-      "certification": ["Halal", "ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
-    },
-    {
-      "id": "aile-de-poulet",
-      "slug": { "fr": "aile-de-poulet", "en": "chicken-wings" },
-      "brandId": "belle-vie",
-      "category": "poultry",
-      "images": [
-        "/images/products/belle-vie/aile-de-poulet/ailes-de-poulet.jpeg",
-        "/images/products/belle-vie/aile-de-poulet/carton-ailes.jpg",
-        "/images/products/belle-vie/aile-de-poulet/carton-halal-ailes.jpeg"
-      ],
-      "name": {
-        "fr": "Ailes de Poulet Surgelées",
-        "en": "Frozen Chicken Wings"
-      },
-      "shortDescription": {
-        "fr": "Ailes de poulet certifiées Halal, parfaites pour grillades et fritures",
-        "en": "Halal-certified chicken wings, perfect for grilling and frying"
-      },
-      "description": {
-        "fr": "Les Ailes de Poulet Belle Vie sont soigneusement sélectionnées et certifiées Halal. Surgelées pour conserver toute leur saveur, elles sont parfaites grillées, frites ou en sauce. Un incontournable des repas conviviaux en famille.",
-        "en": "Belle Vie Chicken Wings are carefully selected and Halal certified. Frozen to preserve all their flavor, they are perfect grilled, fried or in sauce. A must-have for convivial family meals."
-      },
-      "ingredients": {
-        "fr": "Ailes de poulet 100%",
-        "en": "100% Chicken wings"
-      },
-      "nutritionalInfo": {
-        "energy": "191 kcal/100g",
-        "proteins": "17g",
-        "carbs": "0g",
-        "fats": "13g",
-        "fiber": "0g"
-      },
-      "packaging": ["10kg"],
-      "origin": "Brésil",
-      "certification": ["Halal", "ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
-    },
-    {
-      "id": "cuisse-de-poulet",
-      "slug": { "fr": "cuisse-de-poulet", "en": "chicken-thighs" },
-      "brandId": "belle-vie",
-      "category": "poultry",
-      "images": [
-        "/images/products/belle-vie/cuisse-de-poulet/cuisse-de-poulet.jpeg",
-        "/images/products/belle-vie/cuisse-de-poulet/carton-cuisse.jpg",
-        "/images/products/belle-vie/cuisse-de-poulet/carton-halal-cuisse.jpeg"
-      ],
-      "name": {
-        "fr": "Cuisses de Poulet Surgelées",
-        "en": "Frozen Chicken Thighs"
-      },
-      "shortDescription": {
-        "fr": "Cuisses de poulet certifiées Halal, tendres et savoureuses",
-        "en": "Halal-certified chicken thighs, tender and flavorful"
-      },
-      "description": {
-        "fr": "Les Cuisses de Poulet Belle Vie offrent une viande tendre et juteuse, idéale pour les plats mijotés, grillés ou au four. Certifiées Halal et surgelées pour une qualité constante. Parce que chaque famille mérite le meilleur dans son assiette.",
-        "en": "Belle Vie Chicken Thighs offer tender and juicy meat, ideal for stews, grilling or baking. Halal certified and frozen for consistent quality. Because every family deserves the best on their plate."
-      },
-      "ingredients": {
-        "fr": "Cuisses de poulet 100%",
-        "en": "100% Chicken thighs"
-      },
-      "nutritionalInfo": {
-        "energy": "177 kcal/100g",
-        "proteins": "16g",
-        "carbs": "0g",
-        "fats": "12g",
-        "fiber": "0g"
-      },
-      "packaging": ["10kg"],
+      "packaging": ["700g", "800g", "900g–1.5kg", "1.6kg–1.8kg"],
+      "packagingDetails": "Sac plastique · IPBF · Cartons 10–14 pièces (9,8–18kg)",
       "origin": "Brésil",
       "certification": ["Halal", "ISO 22000", "HACCP"],
       "shelfLife": "18 mois"
@@ -158,16 +87,16 @@
         "/images/products/belle-vie/filet-de-poulet/carton-halal-filet.jpeg"
       ],
       "name": {
-        "fr": "Filets de Poulet Surgelés",
-        "en": "Frozen Chicken Breast Fillets"
+        "fr": "Filet de Poulet Congelé",
+        "en": "Frozen Chicken Breast Fillet"
       },
       "shortDescription": {
-        "fr": "Filets de poulet certifiés Halal, maigres et polyvalents",
-        "en": "Halal-certified chicken breast fillets, lean and versatile"
+        "fr": "Multi-conditionnements, IQF & BQF, sous vide disponible",
+        "en": "Multi-packaging, IQF & BQF, vacuum-sealed available"
       },
       "description": {
-        "fr": "Les Filets de Poulet Belle Vie sont une source de protéines maigres, parfaits pour une alimentation équilibrée. Certifiés Halal et surgelés individuellement pour une utilisation pratique au quotidien. Grillés, sautés ou en salade, ils s'adaptent à toutes vos recettes.",
-        "en": "Belle Vie Chicken Breast Fillets are a source of lean protein, perfect for a balanced diet. Halal certified and individually frozen for practical daily use. Grilled, sautéed or in salad, they adapt to all your recipes."
+        "fr": "Le Filet de Poulet Congelé Belle Vie est disponible en barquette (0,9kg BQF), sac plastique (2kg à 7,5kg IQF), sous vide (2kg à 7,5kg BQF), carton (14kg IQF) et jumbo-carton (500kg IQF). Source de protéines maigres, parfait pour une alimentation équilibrée au quotidien.",
+        "en": "Belle Vie Frozen Chicken Breast Fillet is available in tray (0.9kg BQF), plastic bag (2kg to 7.5kg IQF), vacuum-sealed (2kg to 7.5kg BQF), carton (14kg IQF) and jumbo carton (500kg IQF). A source of lean protein, perfect for a balanced daily diet."
       },
       "ingredients": {
         "fr": "Filets de poulet 100%",
@@ -180,7 +109,8 @@
         "fats": "1.5g",
         "fiber": "0g"
       },
-      "packaging": ["10kg"],
+      "packaging": ["0.9kg", "2kg", "2.5kg", "5kg", "7.5kg", "14kg", "500kg"],
+      "packagingDetails": "Barquette · Sac plastique · Sous vide · Carton · Jumbo-carton · IQF & BQF",
       "origin": "Brésil",
       "certification": ["Halal", "ISO 22000", "HACCP"],
       "shelfLife": "18 mois"
@@ -196,16 +126,16 @@
         "/images/products/belle-vie/pilon-de-poulet/carton-halal-pilon.jpeg"
       ],
       "name": {
-        "fr": "Pilons de Poulet Surgelés",
+        "fr": "Pilons de Poulet Congelés",
         "en": "Frozen Chicken Drumsticks"
       },
       "shortDescription": {
-        "fr": "Pilons de poulet certifiés Halal, idéaux pour les grillades",
-        "en": "Halal-certified chicken drumsticks, ideal for grilling"
+        "fr": "Barquette, sac plastique, carton — IQF & BQF",
+        "en": "Tray, plastic bag, carton — IQF & BQF"
       },
       "description": {
-        "fr": "Les Pilons de Poulet Belle Vie sont parfaits pour les grillades, barbecues et plats mijotés. Certifiés Halal, ils offrent une viande tendre et goûteuse qui plaît à toute la famille. Surgelés pour préserver leur qualité du producteur jusqu'à votre table.",
-        "en": "Belle Vie Chicken Drumsticks are perfect for grilling, barbecues and stews. Halal certified, they offer tender and flavorful meat that the whole family loves. Frozen to preserve quality from producer to your table."
+        "fr": "Les Pilons de Poulet Congelés Belle Vie sont disponibles en barquette (0,9kg BQF), sac plastique (1kg et 2,5kg IQF), carton (14kg IQF) et jumbo-carton (500kg IQF). Parfaits pour les grillades, barbecues et plats mijotés. Certifiés Halal.",
+        "en": "Belle Vie Frozen Chicken Drumsticks are available in tray (0.9kg BQF), plastic bag (1kg and 2.5kg IQF), carton (14kg IQF) and jumbo carton (500kg IQF). Perfect for grilling, barbecues and stews. Halal certified."
       },
       "ingredients": {
         "fr": "Pilons de poulet 100%",
@@ -218,7 +148,86 @@
         "fats": "11g",
         "fiber": "0g"
       },
-      "packaging": ["10kg"],
+      "packaging": ["0.9kg", "1kg", "2.5kg", "14kg", "500kg"],
+      "packagingDetails": "Barquette · Sac plastique · Carton · Jumbo-carton · IQF & BQF",
+      "origin": "Brésil",
+      "certification": ["Halal", "ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
+    },
+    {
+      "id": "aile-de-poulet",
+      "slug": { "fr": "ailes-de-poulet", "en": "chicken-wings" },
+      "brandId": "belle-vie",
+      "category": "poultry",
+      "images": [
+        "/images/products/belle-vie/aile-de-poulet/ailes-de-poulet.jpeg",
+        "/images/products/belle-vie/aile-de-poulet/carton-ailes.jpg",
+        "/images/products/belle-vie/aile-de-poulet/carton-halal-ailes.jpeg"
+      ],
+      "name": {
+        "fr": "Ailes de Poulet 2/3 Articulations Congelées",
+        "en": "Frozen Chicken Wings 2/3 Joints"
+      },
+      "shortDescription": {
+        "fr": "Barquette, sac, sous vide, carton — IQF & BQF",
+        "en": "Tray, bag, vacuum-sealed, carton — IQF & BQF"
+      },
+      "description": {
+        "fr": "Les Ailes de Poulet 2/3 Articulations Congelées Belle Vie sont disponibles en barquette (0,9kg BQF), sac plastique (1kg à 5kg IQF), sous vide (7,5kg BQF), carton (14kg IQF) et jumbo-carton (500kg IQF). Parfaites grillées, frites ou en sauce pour des repas conviviaux.",
+        "en": "Belle Vie Frozen Chicken Wings 2/3 Joints are available in tray (0.9kg BQF), plastic bag (1kg to 5kg IQF), vacuum-sealed (7.5kg BQF), carton (14kg IQF) and jumbo carton (500kg IQF). Perfect grilled, fried or in sauce for convivial meals."
+      },
+      "ingredients": {
+        "fr": "Ailes de poulet 100%",
+        "en": "100% Chicken wings"
+      },
+      "nutritionalInfo": {
+        "energy": "191 kcal/100g",
+        "proteins": "17g",
+        "carbs": "0g",
+        "fats": "13g",
+        "fiber": "0g"
+      },
+      "packaging": ["0.9kg", "1kg", "2.5kg", "5kg", "7.5kg", "14kg", "500kg"],
+      "packagingDetails": "Barquette · Sac plastique · Sous vide · Carton · Jumbo-carton · IQF & BQF",
+      "origin": "Brésil",
+      "certification": ["Halal", "ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
+    },
+    {
+      "id": "quart-de-cuisse",
+      "slug": { "fr": "quart-de-cuisse", "en": "chicken-leg-quarters" },
+      "brandId": "belle-vie",
+      "category": "poultry",
+      "images": [
+        "/images/products/belle-vie/cuisse-de-poulet/cuisse-de-poulet.jpeg",
+        "/images/products/belle-vie/cuisse-de-poulet/carton-cuisse.jpg",
+        "/images/products/belle-vie/cuisse-de-poulet/carton-halal-cuisse.jpeg"
+      ],
+      "name": {
+        "fr": "Quart de Cuisse de Poulet Congelé",
+        "en": "Frozen Chicken Leg Quarters"
+      },
+      "shortDescription": {
+        "fr": "Carton & jumbo-carton, congélation IQF",
+        "en": "Carton & jumbo carton, IQF freezing"
+      },
+      "description": {
+        "fr": "Le Quart de Cuisse de Poulet Congelé Belle Vie est disponible en carton (14kg IQF) et jumbo-carton (500kg IQF). Une viande tendre et juteuse, idéale pour les plats mijotés, grillés ou au four. Certifié Halal, parce que chaque famille mérite le meilleur.",
+        "en": "Belle Vie Frozen Chicken Leg Quarters are available in carton (14kg IQF) and jumbo carton (500kg IQF). Tender and juicy meat, ideal for stews, grilling or baking. Halal certified, because every family deserves the best."
+      },
+      "ingredients": {
+        "fr": "Quart de cuisse de poulet 100%",
+        "en": "100% Chicken leg quarters"
+      },
+      "nutritionalInfo": {
+        "energy": "177 kcal/100g",
+        "proteins": "16g",
+        "carbs": "0g",
+        "fats": "12g",
+        "fiber": "0g"
+      },
+      "packaging": ["14kg", "500kg"],
+      "packagingDetails": "Carton · Jumbo-carton · IQF",
       "origin": "Brésil",
       "certification": ["Halal", "ISO 22000", "HACCP"],
       "shelfLife": "18 mois"
@@ -232,20 +241,20 @@
         "/images/products/belle-vie/huile/huile-tournesol.png"
       ],
       "name": {
-        "fr": "Huile de Tournesol",
-        "en": "Sunflower Oil"
+        "fr": "Huile de Tournesol Raffinée Désodorisée",
+        "en": "Refined Deodorized Sunflower Oil"
       },
       "shortDescription": {
-        "fr": "Huile de tournesol 100% pure, idéale pour la cuisson quotidienne",
-        "en": "100% pure sunflower oil, ideal for daily cooking"
+        "fr": "Raffinée, désodorisée, qualité premium — bouteille & bidon",
+        "en": "Refined, deodorized, premium quality — bottle & jerry can"
       },
       "description": {
-        "fr": "L'Huile de Tournesol Belle Vie est 100% pure, rigoureusement sélectionnée pour accompagner vos repas au quotidien. Légère et polyvalente, elle est parfaite pour la friture, la cuisson et l'assaisonnement. La qualité que votre famille mérite, chaque jour.",
-        "en": "Belle Vie Sunflower Oil is 100% pure, rigorously selected to accompany your daily meals. Light and versatile, it is perfect for frying, cooking and seasoning. The quality your family deserves, every day."
+        "fr": "L'Huile de Tournesol Raffinée Désodorisée Belle Vie est disponible en bouteille (0,81L, 1L, 4L, 5L, 10L) et bidon plastique (10L, 20L). Qualité premium, idéale pour la cuisson quotidienne et l'assaisonnement. La qualité que votre famille mérite, chaque jour.",
+        "en": "Belle Vie Refined Deodorized Sunflower Oil is available in bottle (0.81L, 1L, 4L, 5L, 10L) and plastic jerry can (10L, 20L). Premium quality, ideal for daily cooking and seasoning. The quality your family deserves, every day."
       },
       "ingredients": {
-        "fr": "Huile de tournesol 100% raffinée",
-        "en": "100% Refined sunflower oil"
+        "fr": "Huile de tournesol 100% raffinée désodorisée",
+        "en": "100% Refined deodorized sunflower oil"
       },
       "nutritionalInfo": {
         "energy": "900 kcal/100ml",
@@ -254,10 +263,85 @@
         "fats": "100g",
         "fiber": "0g"
       },
-      "packaging": ["1L", "5L", "10L", "20L"],
+      "packaging": ["0.81L", "1L", "4L", "5L", "10L", "20L"],
+      "packagingDetails": "Bouteille plastique · Bidon plastique",
       "origin": "Ukraine",
       "certification": ["ISO 22000", "HACCP"],
       "shelfLife": "18 mois"
+    },
+    {
+      "id": "huile-tournesol-friture",
+      "slug": { "fr": "huile-de-tournesol-friture", "en": "sunflower-frying-oil" },
+      "brandId": "belle-vie",
+      "category": "oils",
+      "images": [
+        "/images/products/belle-vie/huile/huile-tournesol.png"
+      ],
+      "name": {
+        "fr": "Huile de Tournesol Raffinée pour Friture",
+        "en": "Refined Sunflower Frying Oil"
+      },
+      "shortDescription": {
+        "fr": "Avec anti-mousse E900, idéale pour la friture professionnelle",
+        "en": "With anti-foam E900, ideal for professional frying"
+      },
+      "description": {
+        "fr": "L'Huile de Tournesol pour Friture Belle Vie est enrichie en anti-mousse (E900) pour une friture optimale et professionnelle. Disponible en bouteille (5L, 10L) et bidon plastique (10L, 20L). Parfaite pour les restaurateurs et les grandes cuisines.",
+        "en": "Belle Vie Sunflower Frying Oil is enriched with anti-foam (E900) for optimal professional frying. Available in bottle (5L, 10L) and plastic jerry can (10L, 20L). Perfect for restaurants and large kitchens."
+      },
+      "ingredients": {
+        "fr": "Huile de tournesol raffinée, anti-mousse (E900)",
+        "en": "Refined sunflower oil, anti-foam agent (E900)"
+      },
+      "nutritionalInfo": {
+        "energy": "900 kcal/100ml",
+        "proteins": "0g",
+        "carbs": "0g",
+        "fats": "100g",
+        "fiber": "0g"
+      },
+      "packaging": ["5L", "10L", "20L"],
+      "packagingDetails": "Bouteille plastique · Bidon plastique",
+      "origin": "Ukraine",
+      "certification": ["ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
+    },
+    {
+      "id": "farine-ble-t55",
+      "slug": { "fr": "farine-de-ble-t55", "en": "wheat-flour-t55" },
+      "brandId": "belle-vie",
+      "category": "flour",
+      "images": [
+        "/images/products/belle-vie/farine-ble-t55.jpg"
+      ],
+      "name": {
+        "fr": "Farine de Blé T55",
+        "en": "Wheat Flour T55"
+      },
+      "shortDescription": {
+        "fr": "Qualité premium, conditionnement sac papier 1kg et 2kg",
+        "en": "Premium quality, paper bag packaging 1kg and 2kg"
+      },
+      "description": {
+        "fr": "La Farine de Blé T55 Belle Vie est une farine de qualité premium, idéale pour la boulangerie, la pâtisserie et la cuisine quotidienne. Conditionnée en sac papier de 1kg et 2kg. Parfaite pour toutes vos préparations, du pain aux viennoiseries.",
+        "en": "Belle Vie T55 Wheat Flour is a premium quality flour, ideal for bakery, pastry and daily cooking. Packaged in 1kg and 2kg paper bags. Perfect for all your preparations, from bread to pastries."
+      },
+      "ingredients": {
+        "fr": "Farine de blé T55 100%",
+        "en": "100% T55 wheat flour"
+      },
+      "nutritionalInfo": {
+        "energy": "340 kcal/100g",
+        "proteins": "10g",
+        "carbs": "72g",
+        "fats": "1g",
+        "fiber": "3g"
+      },
+      "packaging": ["1kg", "2kg"],
+      "packagingDetails": "Sac papier",
+      "origin": "France",
+      "certification": ["ISO 22000"],
+      "shelfLife": "12 mois"
     },
     {
       "id": "oeuf-de-poule",

@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   Drumstick,
   Droplets,
+  Wheat,
   Egg,
   Coffee,
   Package,
@@ -25,6 +26,7 @@ const categoryIcons: Record<
 > = {
   poultry: Drumstick,
   oils: Droplets,
+  flour: Wheat,
   eggs: Egg,
   beverages: Coffee,
 };

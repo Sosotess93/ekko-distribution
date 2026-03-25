@@ -46,6 +46,7 @@
     "categories": {
       "poultry": "Volailles",
       "oils": "Huiles",
+      "flour": "Farines",
       "eggs": "Œufs",
       "beverages": "Boissons"
     },
@@ -160,7 +161,7 @@
     "title": "Un projet en tête ?",
     "subtitle": "Échangeons sur vos besoins.",
     "cta": "Démarrer un projet",
-    "call": "Nous appeler"
+    "whatsapp": "Message WhatsApp"
   }
 }
 
