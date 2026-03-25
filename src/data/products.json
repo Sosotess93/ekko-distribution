@@ -3,11 +3,11 @@
     {
       "id": "belle-vie",
       "name": "Belle Vie",
-      "slogan": "Gourmand & Savoureux",
+      "slogan": "Parce que vous méritez de bien vivre",
       "logo": "/images/brands/belle-vie.png",
       "description": {
-        "fr": "Belle Vie est une marque de produits alimentaires de qualité, dédiée à apporter le meilleur de la gastronomie à votre table. Avec une gamme variée allant des conserves aux boissons, Belle Vie s'engage à offrir des produits savoureux et authentiques pour toute la famille.",
-        "en": "Belle Vie is a quality food brand dedicated to bringing the best of gastronomy to your table. With a diverse range from canned goods to beverages, Belle Vie is committed to offering delicious and authentic products for the whole family."
+        "fr": "Belle Vie est née d'une conviction simple : chaque famille, partout dans le monde, mérite de manger des produits de qualité, chaque jour. Spécialisée dans l'export de produits essentiels — poulet, huile, œufs et farine — rigoureusement sélectionnés. La qualité n'est pas une option, c'est une promesse gravée dans notre ADN.",
+        "en": "Belle Vie was born from a simple conviction: every family, everywhere in the world, deserves to eat quality products, every day. Specialized in exporting essential products — chicken, oil, eggs and flour — rigorously selected. Quality is not an option, it's a promise written in our DNA."
       },
       "country": "France",
       "founded": "2010"
@@ -15,264 +15,317 @@
   ],
   "categories": [
     {
-      "id": "beverages",
-      "icon": "Coffee"
+      "id": "poultry",
+      "icon": "Drumstick"
     },
     {
-      "id": "canned",
-      "icon": "Package"
-    },
-    {
-      "id": "condiments",
+      "id": "oils",
       "icon": "Droplets"
     },
     {
-      "id": "grains",
-      "icon": "Wheat"
+      "id": "eggs",
+      "icon": "Egg"
     }
   ],
   "products": [
     {
-      "id": "the-vert-premium",
-      "slug": { "fr": "the-vert-premium", "en": "premium-green-tea" },
+      "id": "poulet-entier",
+      "slug": { "fr": "poulet-entier", "en": "whole-chicken" },
       "brandId": "belle-vie",
-      "category": "beverages",
-      "images": ["/images/products/1.jpg"],
+      "category": "poultry",
+      "images": [
+        "/images/products/belle-vie/poulet-entier/poulet-entier.jpg",
+        "/images/products/belle-vie/poulet-entier/poulet-congele-entier.png",
+        "/images/products/belle-vie/poulet-entier/carton-poulet-entier.png",
+        "/images/products/belle-vie/poulet-entier/carton-halal-poulet-entier.jpeg"
+      ],
       "name": {
-        "fr": "Thé Vert Premium",
-        "en": "Premium Green Tea"
+        "fr": "Poulet Entier Surgelé",
+        "en": "Whole Frozen Chicken"
       },
       "shortDescription": {
-        "fr": "Thé vert 100% naturel, qualité premium pour un moment de détente",
-        "en": "100% natural green tea, premium quality for a relaxing moment"
+        "fr": "Poulet entier certifié Halal, surgelé pour une fraîcheur optimale",
+        "en": "Halal-certified whole chicken, frozen for optimal freshness"
       },
       "description": {
-        "fr": "Notre Thé Vert Premium Belle Vie est soigneusement sélectionné pour vous offrir une expérience gustative exceptionnelle. 100% naturel, ce thé de qualité supérieure libère des arômes délicats et une saveur rafraîchissante. Idéal pour accompagner vos moments de détente ou pour préparer un thé à la menthe traditionnel. Riche en antioxydants, il contribue à votre bien-être au quotidien.",
-        "en": "Our Belle Vie Premium Green Tea is carefully selected to offer you an exceptional taste experience. 100% natural, this superior quality tea releases delicate aromas and a refreshing flavor. Ideal for your relaxation moments or for preparing traditional mint tea. Rich in antioxidants, it contributes to your daily well-being."
+        "fr": "Le Poulet Entier Belle Vie est rigoureusement sélectionné et certifié Halal. Surgelé immédiatement après l'abattage pour préserver toute sa fraîcheur et ses qualités nutritionnelles. Idéal pour les repas en famille, rôti au four ou en plat mijoté. Parce que derrière chaque repas, il y a une famille qui se réunit.",
+        "en": "Belle Vie Whole Chicken is rigorously selected and Halal certified. Frozen immediately after slaughter to preserve all its freshness and nutritional qualities. Ideal for family meals, roasted or slow-cooked. Because behind every meal, there is a family coming together."
       },
       "ingredients": {
-        "fr": "Thé vert 100% (Camellia sinensis)",
-        "en": "100% Green tea (Camellia sinensis)"
+        "fr": "Poulet entier 100%",
+        "en": "100% Whole chicken"
       },
       "nutritionalInfo": {
-        "energy": "1 kcal/100ml infusé",
-        "proteins": "0g",
+        "energy": "215 kcal/100g",
+        "proteins": "18g",
         "carbs": "0g",
-        "fats": "0g",
+        "fats": "15g",
         "fiber": "0g"
       },
-      "packaging": ["25g", "100g", "250g"],
-      "origin": "Chine",
-      "certification": ["100% Naturel"],
-      "shelfLife": "24 mois",
-      "reference": "41022"
-    },
-    {
-      "id": "double-concentre-tomate",
-      "slug": { "fr": "double-concentre-tomate", "en": "double-tomato-concentrate" },
-      "brandId": "belle-vie",
-      "category": "canned",
-      "images": ["/images/products/2.jpg"],
-      "name": {
-        "fr": "Double Concentré de Tomate",
-        "en": "Double Tomato Concentrate"
-      },
-      "shortDescription": {
-        "fr": "Double concentré de tomate 28% minimum, idéal pour vos sauces et plats mijotés",
-        "en": "Double tomato concentrate 28% minimum, ideal for your sauces and stews"
-      },
-      "description": {
-        "fr": "Le Double Concentré de Tomate Belle Vie est élaboré à partir de tomates mûries au soleil, soigneusement sélectionnées pour leur saveur intense. Avec une concentration minimale de 28%, il apporte une richesse et une profondeur incomparables à tous vos plats. Parfait pour les sauces, les soupes, les ragoûts et les plats mijotés africains traditionnels.",
-        "en": "Belle Vie Double Tomato Concentrate is made from sun-ripened tomatoes, carefully selected for their intense flavor. With a minimum concentration of 28%, it brings unparalleled richness and depth to all your dishes. Perfect for sauces, soups, stews and traditional African slow-cooked dishes."
-      },
-      "ingredients": {
-        "fr": "Concentré de tomate (28% minimum de matière sèche)",
-        "en": "Tomato concentrate (28% minimum dry matter)"
-      },
-      "nutritionalInfo": {
-        "energy": "85 kcal/100g",
-        "proteins": "4.5g",
-        "carbs": "15g",
-        "fats": "0.5g",
-        "fiber": "3g"
-      },
-      "packaging": ["70g", "400g", "800g", "2200g"],
-      "origin": "Italie",
-      "certification": ["ISO 22000", "HACCP"],
-      "shelfLife": "36 mois"
-    },
-    {
-      "id": "sucre-blanc",
-      "slug": { "fr": "sucre-blanc", "en": "white-sugar" },
-      "brandId": "belle-vie",
-      "category": "grains",
-      "images": ["/images/products/3.jpg", "/images/products/4.jpg"],
-      "name": {
-        "fr": "Sucre Blanc",
-        "en": "White Sugar"
-      },
-      "shortDescription": {
-        "fr": "Sucre blanc de qualité supérieure, parfait pour toutes vos préparations",
-        "en": "Premium white sugar, perfect for all your preparations"
-      },
-      "description": {
-        "fr": "Le Sucre Belle Vie est un sucre blanc de qualité supérieure, raffiné avec soin pour une pureté optimale. Sa granulométrie régulière garantit une dissolution parfaite dans toutes vos préparations : pâtisseries, boissons chaudes ou froides, confitures et desserts. Conditionné en sacs solides pour une conservation optimale.",
-        "en": "Belle Vie Sugar is a premium white sugar, carefully refined for optimal purity. Its regular grain size guarantees perfect dissolution in all your preparations: pastries, hot or cold drinks, jams and desserts. Packaged in sturdy bags for optimal preservation."
-      },
-      "ingredients": {
-        "fr": "Sucre blanc 100% (saccharose)",
-        "en": "100% White sugar (sucrose)"
-      },
-      "nutritionalInfo": {
-        "energy": "400 kcal/100g",
-        "proteins": "0g",
-        "carbs": "100g",
-        "fats": "0g",
-        "fiber": "0g"
-      },
-      "packaging": ["1kg", "5kg", "10kg", "25kg", "50kg"],
+      "packaging": ["900g", "1000g", "1100g", "1200g", "1300g"],
       "origin": "Brésil",
-      "certification": ["ISO 22000"],
-      "shelfLife": "24 mois"
+      "certification": ["Halal", "ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
     },
     {
-      "id": "mayonnaise",
-      "slug": { "fr": "mayonnaise", "en": "mayonnaise" },
+      "id": "aile-de-poulet",
+      "slug": { "fr": "aile-de-poulet", "en": "chicken-wings" },
       "brandId": "belle-vie",
-      "category": "condiments",
-      "images": ["/images/products/5.jpg"],
+      "category": "poultry",
+      "images": [
+        "/images/products/belle-vie/aile-de-poulet/ailes-de-poulet.jpeg",
+        "/images/products/belle-vie/aile-de-poulet/carton-ailes.jpg",
+        "/images/products/belle-vie/aile-de-poulet/carton-halal-ailes.jpeg"
+      ],
       "name": {
-        "fr": "Mayonnaise",
-        "en": "Mayonnaise"
+        "fr": "Ailes de Poulet Surgelées",
+        "en": "Frozen Chicken Wings"
       },
       "shortDescription": {
-        "fr": "Mayonnaise onctueuse et savoureuse, recette traditionnelle",
-        "en": "Creamy and tasty mayonnaise, traditional recipe"
+        "fr": "Ailes de poulet certifiées Halal, parfaites pour grillades et fritures",
+        "en": "Halal-certified chicken wings, perfect for grilling and frying"
       },
       "description": {
-        "fr": "La Mayonnaise Belle Vie est préparée selon une recette traditionnelle pour une texture onctueuse et un goût authentique. Élaborée avec des ingrédients de qualité, elle accompagne parfaitement vos salades, sandwichs, frites et grillades. Sa consistance idéale en fait un incontournable de votre cuisine quotidienne.",
-        "en": "Belle Vie Mayonnaise is prepared according to a traditional recipe for a creamy texture and authentic taste. Made with quality ingredients, it perfectly accompanies your salads, sandwiches, fries and grills. Its ideal consistency makes it a must-have in your daily cooking."
+        "fr": "Les Ailes de Poulet Belle Vie sont soigneusement sélectionnées et certifiées Halal. Surgelées pour conserver toute leur saveur, elles sont parfaites grillées, frites ou en sauce. Un incontournable des repas conviviaux en famille.",
+        "en": "Belle Vie Chicken Wings are carefully selected and Halal certified. Frozen to preserve all their flavor, they are perfect grilled, fried or in sauce. A must-have for convivial family meals."
       },
       "ingredients": {
-        "fr": "Huile végétale, jaune d'œuf, vinaigre, moutarde, sel, sucre, épaississant",
-        "en": "Vegetable oil, egg yolk, vinegar, mustard, salt, sugar, thickener"
+        "fr": "Ailes de poulet 100%",
+        "en": "100% Chicken wings"
       },
       "nutritionalInfo": {
-        "energy": "680 kcal/100g",
-        "proteins": "1g",
-        "carbs": "2g",
-        "fats": "75g",
-        "fiber": "0g"
-      },
-      "packaging": ["175g", "350g", "500g"],
-      "origin": "France",
-      "certification": ["ISO 22000"],
-      "shelfLife": "12 mois"
-    },
-    {
-      "id": "sardines-huile-vegetale",
-      "slug": { "fr": "sardines-huile-vegetale", "en": "sardines-vegetable-oil" },
-      "brandId": "belle-vie",
-      "category": "canned",
-      "images": ["/images/products/6.jpg"],
-      "name": {
-        "fr": "Sardines à l'Huile Végétale",
-        "en": "Sardines in Vegetable Oil"
-      },
-      "shortDescription": {
-        "fr": "Sardines de qualité premium, riches en Oméga 3, certifiées Halal",
-        "en": "Premium quality sardines, rich in Omega 3, Halal certified"
-      },
-      "description": {
-        "fr": "Les Sardines Belle Vie sont sélectionnées pour leur fraîcheur et leur qualité premium. Conservées dans une huile végétale de première qualité, elles sont riches en Oméga 3, essentiels pour votre santé cardiovasculaire. Certifiées Halal, elles conviennent à tous. Parfaites en salade, sur des toasts ou dans vos plats cuisinés.",
-        "en": "Belle Vie Sardines are selected for their freshness and premium quality. Preserved in first-quality vegetable oil, they are rich in Omega 3, essential for your cardiovascular health. Halal certified, they are suitable for everyone. Perfect in salads, on toast or in your cooked dishes."
-      },
-      "ingredients": {
-        "fr": "Sardines (60%), huile végétale, sel",
-        "en": "Sardines (60%), vegetable oil, salt"
-      },
-      "nutritionalInfo": {
-        "energy": "220 kcal/100g",
-        "proteins": "24g",
+        "energy": "191 kcal/100g",
+        "proteins": "17g",
         "carbs": "0g",
-        "fats": "14g",
+        "fats": "13g",
         "fiber": "0g"
       },
-      "packaging": ["125g"],
-      "netWeight": "125g",
-      "drainedWeight": "90g",
-      "origin": "Maroc",
-      "certification": ["Halal", "Riche en Oméga 3", "Premium Quality"],
-      "shelfLife": "48 mois"
+      "packaging": ["10kg"],
+      "origin": "Brésil",
+      "certification": ["Halal", "ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
     },
     {
-      "id": "cafe-soluble",
-      "slug": { "fr": "cafe-soluble", "en": "instant-coffee" },
+      "id": "cuisse-de-poulet",
+      "slug": { "fr": "cuisse-de-poulet", "en": "chicken-thighs" },
       "brandId": "belle-vie",
-      "category": "beverages",
-      "images": ["/images/products/7.jpg"],
+      "category": "poultry",
+      "images": [
+        "/images/products/belle-vie/cuisse-de-poulet/cuisse-de-poulet.jpeg",
+        "/images/products/belle-vie/cuisse-de-poulet/carton-cuisse.jpg",
+        "/images/products/belle-vie/cuisse-de-poulet/carton-halal-cuisse.jpeg"
+      ],
       "name": {
-        "fr": "Café Soluble",
-        "en": "Instant Coffee"
+        "fr": "Cuisses de Poulet Surgelées",
+        "en": "Frozen Chicken Thighs"
       },
       "shortDescription": {
-        "fr": "Café soluble de qualité, arôme riche et saveur intense",
-        "en": "Quality instant coffee, rich aroma and intense flavor"
+        "fr": "Cuisses de poulet certifiées Halal, tendres et savoureuses",
+        "en": "Halal-certified chicken thighs, tender and flavorful"
       },
       "description": {
-        "fr": "Le Café Soluble Belle Vie est élaboré à partir de grains de café soigneusement sélectionnés et torréfiés pour révéler un arôme riche et une saveur intense. Sa dissolution instantanée vous permet de profiter d'un café de qualité en quelques secondes. Idéal pour commencer la journée du bon pied ou pour une pause café revigorante.",
-        "en": "Belle Vie Instant Coffee is made from carefully selected and roasted coffee beans to reveal a rich aroma and intense flavor. Its instant dissolution allows you to enjoy quality coffee in seconds. Ideal for starting the day right or for an invigorating coffee break."
+        "fr": "Les Cuisses de Poulet Belle Vie offrent une viande tendre et juteuse, idéale pour les plats mijotés, grillés ou au four. Certifiées Halal et surgelées pour une qualité constante. Parce que chaque famille mérite le meilleur dans son assiette.",
+        "en": "Belle Vie Chicken Thighs offer tender and juicy meat, ideal for stews, grilling or baking. Halal certified and frozen for consistent quality. Because every family deserves the best on their plate."
       },
       "ingredients": {
-        "fr": "Café soluble 100% (Coffea arabica et robusta)",
-        "en": "100% Instant coffee (Coffea arabica and robusta)"
+        "fr": "Cuisses de poulet 100%",
+        "en": "100% Chicken thighs"
       },
       "nutritionalInfo": {
-        "energy": "2 kcal/100ml préparé",
-        "proteins": "0.1g",
+        "energy": "177 kcal/100g",
+        "proteins": "16g",
         "carbs": "0g",
-        "fats": "0g",
+        "fats": "12g",
         "fiber": "0g"
       },
-      "packaging": ["50g", "100g", "200g"],
-      "origin": "Côte d'Ivoire",
-      "certification": ["ISO 22000"],
-      "shelfLife": "24 mois"
+      "packaging": ["10kg"],
+      "origin": "Brésil",
+      "certification": ["Halal", "ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
     },
     {
-      "id": "ketchup",
-      "slug": { "fr": "ketchup", "en": "ketchup" },
+      "id": "filet-de-poulet",
+      "slug": { "fr": "filet-de-poulet", "en": "chicken-breast" },
       "brandId": "belle-vie",
-      "category": "condiments",
-      "images": ["/images/products/8.jpg"],
+      "category": "poultry",
+      "images": [
+        "/images/products/belle-vie/filet-de-poulet/filet-de-poulet.png",
+        "/images/products/belle-vie/filet-de-poulet/carton-filet.jpg",
+        "/images/products/belle-vie/filet-de-poulet/carton-halal-filet.jpeg"
+      ],
       "name": {
-        "fr": "Ketchup",
-        "en": "Ketchup"
+        "fr": "Filets de Poulet Surgelés",
+        "en": "Frozen Chicken Breast Fillets"
       },
       "shortDescription": {
-        "fr": "Ketchup savoureux aux tomates, parfait pour accompagner vos repas",
-        "en": "Tasty tomato ketchup, perfect to accompany your meals"
+        "fr": "Filets de poulet certifiés Halal, maigres et polyvalents",
+        "en": "Halal-certified chicken breast fillets, lean and versatile"
       },
       "description": {
-        "fr": "Le Ketchup Belle Vie est préparé avec des tomates de qualité pour un goût authentique et équilibré. Sa texture onctueuse et son assaisonnement parfait en font le compagnon idéal de vos frites, burgers, grillades et snacks. Un classique intemporel qui plaît à toute la famille.",
-        "en": "Belle Vie Ketchup is prepared with quality tomatoes for an authentic and balanced taste. Its smooth texture and perfect seasoning make it the ideal companion for your fries, burgers, grills and snacks. A timeless classic that pleases the whole family."
+        "fr": "Les Filets de Poulet Belle Vie sont une source de protéines maigres, parfaits pour une alimentation équilibrée. Certifiés Halal et surgelés individuellement pour une utilisation pratique au quotidien. Grillés, sautés ou en salade, ils s'adaptent à toutes vos recettes.",
+        "en": "Belle Vie Chicken Breast Fillets are a source of lean protein, perfect for a balanced diet. Halal certified and individually frozen for practical daily use. Grilled, sautéed or in salad, they adapt to all your recipes."
       },
       "ingredients": {
-        "fr": "Concentré de tomate, sucre, vinaigre, sel, épices, arômes naturels",
-        "en": "Tomato concentrate, sugar, vinegar, salt, spices, natural flavors"
+        "fr": "Filets de poulet 100%",
+        "en": "100% Chicken breast fillets"
       },
       "nutritionalInfo": {
         "energy": "110 kcal/100g",
-        "proteins": "1.5g",
-        "carbs": "25g",
-        "fats": "0.5g",
-        "fiber": "0.5g"
+        "proteins": "23g",
+        "carbs": "0g",
+        "fats": "1.5g",
+        "fiber": "0g"
       },
-      "packaging": ["340g", "500g", "1kg"],
+      "packaging": ["10kg"],
+      "origin": "Brésil",
+      "certification": ["Halal", "ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
+    },
+    {
+      "id": "pilon-de-poulet",
+      "slug": { "fr": "pilon-de-poulet", "en": "chicken-drumsticks" },
+      "brandId": "belle-vie",
+      "category": "poultry",
+      "images": [
+        "/images/products/belle-vie/pilon-de-poulet/pilon-de-poulet.png",
+        "/images/products/belle-vie/pilon-de-poulet/carton-pilon.jpg",
+        "/images/products/belle-vie/pilon-de-poulet/carton-halal-pilon.jpeg"
+      ],
+      "name": {
+        "fr": "Pilons de Poulet Surgelés",
+        "en": "Frozen Chicken Drumsticks"
+      },
+      "shortDescription": {
+        "fr": "Pilons de poulet certifiés Halal, idéaux pour les grillades",
+        "en": "Halal-certified chicken drumsticks, ideal for grilling"
+      },
+      "description": {
+        "fr": "Les Pilons de Poulet Belle Vie sont parfaits pour les grillades, barbecues et plats mijotés. Certifiés Halal, ils offrent une viande tendre et goûteuse qui plaît à toute la famille. Surgelés pour préserver leur qualité du producteur jusqu'à votre table.",
+        "en": "Belle Vie Chicken Drumsticks are perfect for grilling, barbecues and stews. Halal certified, they offer tender and flavorful meat that the whole family loves. Frozen to preserve quality from producer to your table."
+      },
+      "ingredients": {
+        "fr": "Pilons de poulet 100%",
+        "en": "100% Chicken drumsticks"
+      },
+      "nutritionalInfo": {
+        "energy": "172 kcal/100g",
+        "proteins": "16g",
+        "carbs": "0g",
+        "fats": "11g",
+        "fiber": "0g"
+      },
+      "packaging": ["10kg"],
+      "origin": "Brésil",
+      "certification": ["Halal", "ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
+    },
+    {
+      "id": "huile-tournesol",
+      "slug": { "fr": "huile-de-tournesol", "en": "sunflower-oil" },
+      "brandId": "belle-vie",
+      "category": "oils",
+      "images": [
+        "/images/products/belle-vie/huile/huile-tournesol.png"
+      ],
+      "name": {
+        "fr": "Huile de Tournesol",
+        "en": "Sunflower Oil"
+      },
+      "shortDescription": {
+        "fr": "Huile de tournesol 100% pure, idéale pour la cuisson quotidienne",
+        "en": "100% pure sunflower oil, ideal for daily cooking"
+      },
+      "description": {
+        "fr": "L'Huile de Tournesol Belle Vie est 100% pure, rigoureusement sélectionnée pour accompagner vos repas au quotidien. Légère et polyvalente, elle est parfaite pour la friture, la cuisson et l'assaisonnement. La qualité que votre famille mérite, chaque jour.",
+        "en": "Belle Vie Sunflower Oil is 100% pure, rigorously selected to accompany your daily meals. Light and versatile, it is perfect for frying, cooking and seasoning. The quality your family deserves, every day."
+      },
+      "ingredients": {
+        "fr": "Huile de tournesol 100% raffinée",
+        "en": "100% Refined sunflower oil"
+      },
+      "nutritionalInfo": {
+        "energy": "900 kcal/100ml",
+        "proteins": "0g",
+        "carbs": "0g",
+        "fats": "100g",
+        "fiber": "0g"
+      },
+      "packaging": ["1L", "5L", "10L", "20L"],
+      "origin": "Ukraine",
+      "certification": ["ISO 22000", "HACCP"],
+      "shelfLife": "18 mois"
+    },
+    {
+      "id": "oeuf-de-poule",
+      "slug": { "fr": "oeuf-de-poule", "en": "fresh-eggs" },
+      "brandId": "belle-vie",
+      "category": "eggs",
+      "images": [
+        "/images/products/belle-vie/oeuf-de-poule/oeuf-entier.jpg"
+      ],
+      "name": {
+        "fr": "Œufs Frais",
+        "en": "Fresh Eggs"
+      },
+      "shortDescription": {
+        "fr": "Œufs frais de poule, sélectionnés pour leur qualité et leur fraîcheur",
+        "en": "Fresh chicken eggs, selected for quality and freshness"
+      },
+      "description": {
+        "fr": "Les Œufs Frais Belle Vie sont rigoureusement sélectionnés et conditionnés avec soin pour garantir une fraîcheur optimale. Source naturelle de protéines, ils accompagnent tous vos repas. Parce que derrière chaque petit-déjeuner, il y a des enfants qui grandissent.",
+        "en": "Belle Vie Fresh Eggs are rigorously selected and carefully packaged to guarantee optimal freshness. A natural source of protein, they accompany all your meals. Because behind every breakfast, there are children growing up."
+      },
+      "ingredients": {
+        "fr": "Œufs de poule 100%",
+        "en": "100% Chicken eggs"
+      },
+      "nutritionalInfo": {
+        "energy": "155 kcal/100g",
+        "proteins": "13g",
+        "carbs": "1g",
+        "fats": "11g",
+        "fiber": "0g"
+      },
+      "packaging": ["30 œufs", "180 œufs", "360 œufs"],
       "origin": "France",
       "certification": ["ISO 22000"],
-      "shelfLife": "18 mois"
+      "shelfLife": "28 jours"
+    },
+    {
+      "id": "oeuf-en-poudre",
+      "slug": { "fr": "oeuf-en-poudre", "en": "powdered-eggs" },
+      "brandId": "belle-vie",
+      "category": "eggs",
+      "images": [
+        "/images/products/belle-vie/oeuf-en-poudre/poudre-oeuf-entier.png"
+      ],
+      "name": {
+        "fr": "Poudre d'Œuf Entier",
+        "en": "Whole Egg Powder"
+      },
+      "shortDescription": {
+        "fr": "Poudre d'œuf entier, pratique et longue conservation",
+        "en": "Whole egg powder, practical with long shelf life"
+      },
+      "description": {
+        "fr": "La Poudre d'Œuf Entier Belle Vie est obtenue par déshydratation d'œufs frais de qualité. Facile à stocker et à utiliser, elle est idéale pour la pâtisserie, la boulangerie et l'industrie alimentaire. Une solution pratique sans compromis sur la qualité.",
+        "en": "Belle Vie Whole Egg Powder is obtained by dehydrating quality fresh eggs. Easy to store and use, it is ideal for pastry, bakery and food industry. A practical solution without compromising on quality."
+      },
+      "ingredients": {
+        "fr": "Poudre d'œuf entier 100%",
+        "en": "100% Whole egg powder"
+      },
+      "nutritionalInfo": {
+        "energy": "594 kcal/100g",
+        "proteins": "47g",
+        "carbs": "4g",
+        "fats": "43g",
+        "fiber": "0g"
+      },
+      "packaging": ["1kg", "5kg", "25kg"],
+      "origin": "France",
+      "certification": ["ISO 22000", "HACCP"],
+      "shelfLife": "24 mois"
     }
   ]
 }
-

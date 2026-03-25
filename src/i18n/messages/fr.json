@@ -9,32 +9,32 @@
   "hero": {
     "slides": [
       {
-        "title": "Exportation de produits alimentaires de qualité vers l'Afrique",
-        "subtitle": "Votre partenaire de confiance pour l'approvisionnement alimentaire en Afrique. Nous connectons les producteurs aux marchés africains avec excellence et fiabilité."
+        "title": "Parce que vous méritez de bien vivre",
+        "subtitle": "Chaque famille mérite des produits de qualité, chaque jour. Belle Vie, votre partenaire de confiance du producteur jusqu'à votre table."
       },
       {
-        "title": "Huile de tournesol 100% pure",
-        "subtitle": "Une huile de cuisson premium, conditionnée avec soin pour garantir fraîcheur et qualité jusqu'à votre table."
+        "title": "Une huile pure pour votre famille",
+        "subtitle": "Rigoureusement sélectionnée, notre huile de tournesol accompagne vos repas au quotidien avec la qualité que votre famille mérite."
       },
       {
-        "title": "Des marchés mondiaux à l'Afrique, en toute fiabilité",
-        "subtitle": "Un réseau logistique optimisé pour des livraisons rapides et sécurisées dans plus de 15 pays africains."
+        "title": "La qualité, une promesse gravée dans notre ADN",
+        "subtitle": "Poulet, huile, œufs, farine — chaque produit est rigoureusement sélectionné pour que vos familles mangent bien, chaque jour."
       },
       {
-        "title": "Volailles surgelées de qualité premium",
-        "subtitle": "Poulets entiers certifiés Halal, conditionnés selon les standards internationaux pour une conservation optimale."
+        "title": "Du producteur jusqu'à votre table",
+        "subtitle": "Nos poulets certifiés Halal sont sélectionnés avec soin, pour que derrière chaque repas, il y ait la confiance Belle Vie."
       },
       {
-        "title": "Qualité certifiée, prix compétitifs",
-        "subtitle": "Tous nos produits sont conformes aux normes ISO 22000 et HACCP. Une sélection rigoureuse pour garantir l'excellence."
+        "title": "Des produits essentiels, une qualité constante",
+        "subtitle": "Conformes aux normes internationales les plus strictes, nos produits garantissent à chaque famille l'excellence au quotidien."
       },
       {
-        "title": "La chaîne du froid maîtrisée de bout en bout",
-        "subtitle": "De l'entrepôt au point de vente, nous garantissons des conditions de conservation optimales pour vos produits surgelés."
+        "title": "La fraîcheur préservée jusqu'à vous",
+        "subtitle": "De l'entrepôt à votre table, nous maîtrisons chaque étape pour que vos produits arrivent dans les meilleures conditions."
       },
       {
-        "title": "Des produits frais pour tous les marchés",
-        "subtitle": "Oeufs frais Belle Vie, sélectionnés et conditionnés avec soin pour une fraîcheur garantie à chaque livraison."
+        "title": "Des œufs frais pour chaque famille",
+        "subtitle": "Parce que derrière chaque petit-déjeuner, il y a des enfants qui grandissent. Belle Vie sélectionne le meilleur pour vous."
       }
     ],
     "cta": "Découvrir nos produits",
@@ -42,12 +42,11 @@
   },
   "products": {
     "title": "Nos produits",
-    "subtitle": "Une sélection rigoureuse de produits alimentaires de qualité supérieure",
+    "subtitle": "Poulet, huile, œufs, farine — des produits essentiels rigoureusement sélectionnés pour votre famille",
     "categories": {
-      "beverages": "Boissons",
-      "canned": "Conserves",
-      "condiments": "Condiments",
-      "grains": "Sucres & Céréales"
+      "poultry": "Volailles",
+      "oils": "Huiles",
+      "eggs": "Œufs"
     },
     "viewAll": "Voir tous les produits",
     "details": "Voir détails",
@@ -56,26 +55,26 @@
   },
   "brands": {
     "title": "Nos Marques Partenaires",
-    "subtitle": "Découvrez les marques de confiance que nous distribuons en Afrique"
+    "subtitle": "Des marques de confiance sélectionnées pour accompagner les familles au quotidien"
   },
   "whyUs": {
-    "title": "Pourquoi choisir Ekko Distribution ?",
-    "subtitle": "Notre engagement envers l'excellence nous distingue",
+    "title": "Pourquoi choisir Belle Vie ?",
+    "subtitle": "Parce que chaque famille mérite le meilleur, chaque jour",
     "quality": {
-      "title": "Qualité Premium",
-      "description": "Sélection rigoureuse de produits certifiés et conformes aux normes internationales."
+      "title": "Qualité sans compromis",
+      "description": "Chaque produit est rigoureusement sélectionné — la qualité est une promesse gravée dans notre ADN."
     },
     "logistics": {
-      "title": "Logistique Fiable",
-      "description": "Réseau de distribution optimisé pour des livraisons rapides et sécurisées."
+      "title": "Du producteur à votre table",
+      "description": "Un réseau logistique maîtrisé pour que vos produits arrivent frais et dans les meilleures conditions."
     },
     "partnership": {
-      "title": "Partenariat Durable",
-      "description": "Relations à long terme basées sur la confiance et le respect mutuel."
+      "title": "Partenaire de confiance",
+      "description": "Des relations durables bâties sur la confiance, parce que derrière chaque commande il y a des familles."
     },
     "expertise": {
-      "title": "Expertise Africaine",
-      "description": "Connaissance approfondie des marchés et des besoins du continent africain."
+      "title": "Expertise des marchés",
+      "description": "Une connaissance approfondie des besoins alimentaires des familles à travers le continent africain."
     }
   },
   "process": {

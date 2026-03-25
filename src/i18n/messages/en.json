@@ -9,32 +9,32 @@
   "hero": {
     "slides": [
       {
-        "title": "Exporting Quality Food Products to Africa",
-        "subtitle": "Your trusted partner for food supply in Africa. We connect producers to African markets with excellence and reliability."
+        "title": "Because You Deserve to Live Well",
+        "subtitle": "Every family deserves quality products, every day. Belle Vie, your trusted partner from producer to your table."
       },
       {
-        "title": "100% Pure Sunflower Oil",
-        "subtitle": "A premium cooking oil, carefully packaged to guarantee freshness and quality all the way to your table."
+        "title": "Pure Oil for Your Family",
+        "subtitle": "Rigorously selected, our sunflower oil accompanies your daily meals with the quality your family deserves."
       },
       {
-        "title": "From Global Markets to Africa, Reliably",
-        "subtitle": "An optimized logistics network for fast and secure deliveries across more than 15 African countries."
+        "title": "Quality — A Promise Written in Our DNA",
+        "subtitle": "Chicken, oil, eggs, flour — every product is rigorously selected so your family eats well, every day."
       },
       {
-        "title": "Premium Quality Frozen Poultry",
-        "subtitle": "Halal-certified whole chickens, packaged to international standards for optimal preservation."
+        "title": "From Producer to Your Table",
+        "subtitle": "Our Halal-certified chickens are carefully selected, so behind every meal, there is the trust of Belle Vie."
       },
       {
-        "title": "Certified Quality, Competitive Prices",
-        "subtitle": "All our products comply with ISO 22000 and HACCP standards. A rigorous selection to guarantee excellence."
+        "title": "Essential Products, Consistent Quality",
+        "subtitle": "Compliant with the strictest international standards, our products guarantee every family excellence in their daily life."
       },
       {
-        "title": "End-to-End Cold Chain Management",
-        "subtitle": "From warehouse to point of sale, we guarantee optimal storage conditions for your frozen products."
+        "title": "Freshness Preserved All the Way to You",
+        "subtitle": "From warehouse to your table, we master every step so your products arrive in the best conditions."
       },
       {
-        "title": "Fresh Products for Every Market",
-        "subtitle": "Belle Vie fresh eggs, carefully selected and packaged for guaranteed freshness with every delivery."
+        "title": "Fresh Eggs for Every Family",
+        "subtitle": "Because behind every breakfast, there are children growing up. Belle Vie selects the very best for you."
       }
     ],
     "cta": "Discover our products",
@@ -42,12 +42,11 @@
   },
   "products": {
     "title": "Our Products",
-    "subtitle": "A rigorous selection of premium quality food products",
+    "subtitle": "Chicken, oil, eggs, flour — essential products rigorously selected for your family",
     "categories": {
-      "beverages": "Beverages",
-      "canned": "Canned Goods",
-      "condiments": "Condiments",
-      "grains": "Sugar & Cereals"
+      "poultry": "Poultry",
+      "oils": "Oils",
+      "eggs": "Eggs"
     },
     "viewAll": "View all products",
     "details": "View details",
@@ -56,26 +55,26 @@
   },
   "brands": {
     "title": "Our Partner Brands",
-    "subtitle": "Discover the trusted brands we distribute in Africa"
+    "subtitle": "Trusted brands selected to support families every day"
   },
   "whyUs": {
-    "title": "Why Choose Ekko Distribution?",
-    "subtitle": "Our commitment to excellence sets us apart",
+    "title": "Why Choose Belle Vie?",
+    "subtitle": "Because every family deserves the best, every day",
     "quality": {
-      "title": "Premium Quality",
-      "description": "Rigorous selection of certified products compliant with international standards."
+      "title": "Uncompromising Quality",
+      "description": "Every product is rigorously selected — quality is a promise written in our DNA."
     },
     "logistics": {
-      "title": "Reliable Logistics",
-      "description": "Optimized distribution network for fast and secure deliveries."
+      "title": "From Producer to Your Table",
+      "description": "A mastered logistics network so your products arrive fresh and in the best conditions."
     },
     "partnership": {
-      "title": "Lasting Partnership",
-      "description": "Long-term relationships based on trust and mutual respect."
+      "title": "Trusted Partner",
+      "description": "Lasting relationships built on trust, because behind every order there are families."
     },
     "expertise": {
-      "title": "African Expertise",
-      "description": "Deep knowledge of African markets and continental needs."
+      "title": "Market Expertise",
+      "description": "Deep knowledge of the food needs of families across the African continent."
     }
   },
   "process": {

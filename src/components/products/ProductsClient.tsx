@@ -3,10 +3,10 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Wheat,
+  Drumstick,
   Droplets,
+  Egg,
   Package,
-  Coffee,
   Search,
   ArrowRight,
   SlidersHorizontal,
@@ -22,10 +22,9 @@ const categoryIcons: Record<
   string,
   React.ComponentType<{ size?: number; className?: string }>
 > = {
-  beverages: Coffee,
-  canned: Package,
-  condiments: Droplets,
-  grains: Wheat,
+  poultry: Drumstick,
+  oils: Droplets,
+  eggs: Egg,
 };
 
 export default function ProductsClient() {

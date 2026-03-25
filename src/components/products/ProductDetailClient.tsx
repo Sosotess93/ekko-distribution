@@ -9,9 +9,9 @@ import {
   Package,
   MapPin,
   Clock,
-  Wheat,
+  Drumstick,
   Droplets,
-  Coffee,
+  Egg,
   ArrowRight,
   Leaf,
   FileText,
@@ -29,10 +29,9 @@ const categoryIcons: Record<
   string,
   React.ComponentType<{ size?: number; className?: string }>
 > = {
-  beverages: Coffee,
-  canned: Package,
-  condiments: Droplets,
-  grains: Wheat,
+  poultry: Drumstick,
+  oils: Droplets,
+  eggs: Egg,
 };
 
 export default function ProductDetailClient({
