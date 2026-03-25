@@ -5,9 +5,9 @@ import { useTranslations } from "next-intl";
 
 const stats = [
   { value: "15+", key: "countries" },
-  { value: "500+", key: "products" },
-  { value: "1000+", key: "clients" },
-  { value: "15+", key: "experience" },
+  { value: "10+", key: "products" },
+  { value: "100%", key: "clients" },
+  { value: "5+", key: "experience" },
 ];
 
 export default function StatsSection() {

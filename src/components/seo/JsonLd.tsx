@@ -7,14 +7,14 @@ export function OrganizationJsonLd() {
     description: "Exportation de produits alimentaires de qualité vers l'Afrique",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "123 Avenue du Commerce",
-      addressLocality: "Paris",
-      postalCode: "75001",
+      streetAddress: "9 Avenue de l'Europe, 140 Tour Europa",
+      addressLocality: "Thiais",
+      postalCode: "94320",
       addressCountry: "FR",
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+33-1-23-45-67-89",
+      telephone: "+33-6-49-50-62-49",
       email: "contact@ekko-distribution.com",
       contactType: "customer service",
     },

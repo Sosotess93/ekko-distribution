@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import { getProductBySlug } from "@/data";
 
 const FlagFR = () => (
@@ -85,9 +86,13 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-green rounded-lg flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
-              <span className="text-white font-heading font-bold text-lg">E</span>
-            </div>
+            <Image
+              src="/images/logo-ekko.png"
+              alt="Ekko Distribution"
+              width={40}
+              height={40}
+              className="rounded-lg transition-transform duration-300 group-hover:scale-105"
+            />
             <div className="flex flex-col">
               <span className={`text-lg font-bold font-heading leading-tight transition-colors ${showSolidNav ? "text-green" : "text-white"}`}>
                 Ekko

@@ -75,13 +75,13 @@ export default function ContactClient() {
     {
       icon: MapPin,
       title: t("contact.info.address"),
-      content: "123 Avenue du Commerce\n75001 Paris, France",
+      content: "9 Avenue de l'Europe\n140 Tour Europa\n94320 Thiais, France",
     },
     {
       icon: Phone,
       title: t("contact.info.phone"),
-      content: "+33 1 23 45 67 89",
-      href: "tel:+33123456789",
+      content: "+33 6 49 50 62 49",
+      href: "tel:+33649506249",
     },
     {
       icon: Mail,

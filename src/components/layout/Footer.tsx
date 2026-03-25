@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin, Send } from "lucide-react";
+import Image from "next/image";
 
 const Footer = () => {
   const t = useTranslations();
@@ -27,9 +28,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-6">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-green font-heading font-bold text-lg">E</span>
-              </div>
+              <Image
+                src="/images/logo-ekko.png"
+                alt="Ekko Distribution"
+                width={40}
+                height={40}
+                className="rounded-lg"
+              />
               <div className="flex flex-col">
                 <span className="text-lg font-bold font-heading leading-tight">Ekko</span>
                 <span className="text-xs font-medium text-white/60 leading-tight tracking-wider uppercase">Distribution</span>
@@ -61,11 +66,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-orange shrink-0 mt-1" />
-                <span className="text-white/70">123 Avenue du Commerce<br />75001 Paris, France</span>
+                <span className="text-white/70">9 Avenue de l'Europe<br />140 Tour Europa<br />94320 Thiais, France</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-orange shrink-0" />
-                <a href="tel:+33123456789" className="text-white/70 hover:text-orange transition-colors">+33 1 23 45 67 89</a>
+                <a href="tel:+33649506249" className="text-white/70 hover:text-orange transition-colors">+33 6 49 50 62 49</a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-orange shrink-0" />
