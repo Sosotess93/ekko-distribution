@@ -83,7 +83,7 @@
       "certification": [
         "Halal",
         "ISO 22000",
-        "HACCP"
+        "BRC"
       ],
       "shelfLife": "18 mois",
       "packagingTable": [
@@ -166,7 +166,7 @@
       "certification": [
         "Halal",
         "ISO 22000",
-        "HACCP"
+        "BRC"
       ],
       "shelfLife": "18 mois",
       "packagingTable": [
@@ -289,7 +289,7 @@
       "certification": [
         "Halal",
         "ISO 22000",
-        "HACCP"
+        "BRC"
       ],
       "shelfLife": "18 mois",
       "packagingTable": [
@@ -379,7 +379,7 @@
       "certification": [
         "Halal",
         "ISO 22000",
-        "HACCP"
+        "BRC"
       ],
       "shelfLife": "18 mois",
       "packagingTable": [
@@ -478,7 +478,7 @@
       "certification": [
         "Halal",
         "ISO 22000",
-        "HACCP"
+        "BRC"
       ],
       "shelfLife": "18 mois",
       "packagingTable": [
@@ -543,7 +543,7 @@
       "packagingDetails": "Bouteille plastique · Bidon plastique",
       "certification": [
         "ISO 22000",
-        "HACCP"
+        "BRC"
       ],
       "shelfLife": "18 mois",
       "packagingTable": [
@@ -640,7 +640,7 @@
       "packagingDetails": "Bouteille plastique · Bidon plastique",
       "certification": [
         "ISO 22000",
-        "HACCP"
+        "BRC"
       ],
       "shelfLife": "18 mois",
       "packagingTable": [
@@ -817,7 +817,7 @@
       ],
       "certification": [
         "ISO 22000",
-        "HACCP"
+        "BRC"
       ],
       "shelfLife": "24 mois"
     },
