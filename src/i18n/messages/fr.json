@@ -153,6 +153,13 @@
     "title": "Prêt à collaborer ?",
     "subtitle": "Contactez-nous dès aujourd'hui pour discuter de vos besoins en approvisionnement alimentaire.",
     "button": "Demander un devis"
+  },
+  "floatingContact": {
+    "available": "Disponible maintenant",
+    "title": "Un projet en tête ?",
+    "subtitle": "Échangeons sur vos besoins.",
+    "cta": "Démarrer un projet",
+    "call": "Nous appeler"
   }
 }
 

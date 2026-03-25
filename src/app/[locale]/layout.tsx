@@ -6,6 +6,7 @@ import type { Locale } from "@/i18n/routing";
 import { Montserrat, Open_Sans } from "next/font/google";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
+import FloatingContact from "@/components/layout/FloatingContact";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -47,6 +48,7 @@ export default async function LocaleLayout({
           <Navigation />
           <main>{children}</main>
           <Footer />
+          <FloatingContact />
         </NextIntlClientProvider>
       </body>
     </html>

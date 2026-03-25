@@ -153,6 +153,13 @@
     "title": "Ready to Collaborate?",
     "subtitle": "Contact us today to discuss your food supply needs.",
     "button": "Request a quote"
+  },
+  "floatingContact": {
+    "available": "Available now",
+    "title": "Have a project in mind?",
+    "subtitle": "Let's discuss your needs.",
+    "cta": "Start a project",
+    "call": "Call us"
   }
 }
 
