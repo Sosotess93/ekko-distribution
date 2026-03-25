@@ -6,6 +6,7 @@ import {
   Drumstick,
   Droplets,
   Egg,
+  Coffee,
   Package,
   Search,
   ArrowRight,
@@ -25,6 +26,7 @@ const categoryIcons: Record<
   poultry: Drumstick,
   oils: Droplets,
   eggs: Egg,
+  beverages: Coffee,
 };
 
 export default function ProductsClient() {

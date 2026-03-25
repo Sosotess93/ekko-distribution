@@ -25,6 +25,10 @@
     {
       "id": "eggs",
       "icon": "Egg"
+    },
+    {
+      "id": "beverages",
+      "icon": "Coffee"
     }
   ],
   "products": [
@@ -325,6 +329,40 @@
       "packaging": ["1kg", "5kg", "25kg"],
       "origin": "France",
       "certification": ["ISO 22000", "HACCP"],
+      "shelfLife": "24 mois"
+    },
+    {
+      "id": "the-vert-premium",
+      "slug": { "fr": "the-vert-premium", "en": "premium-green-tea" },
+      "brandId": "belle-vie",
+      "category": "beverages",
+      "images": ["/images/products/belle-vie/the-vert.jpg"],
+      "name": {
+        "fr": "Thé Vert Premium",
+        "en": "Premium Green Tea"
+      },
+      "shortDescription": {
+        "fr": "Thé vert 100% naturel, qualité premium pour un moment de détente",
+        "en": "100% natural green tea, premium quality for a relaxing moment"
+      },
+      "description": {
+        "fr": "Notre Thé Vert Premium Belle Vie est soigneusement sélectionné pour vous offrir une expérience gustative exceptionnelle. 100% naturel, ce thé de qualité supérieure libère des arômes délicats et une saveur rafraîchissante. Idéal pour accompagner vos moments de détente ou pour préparer un thé à la menthe traditionnel. Riche en antioxydants, il contribue au bien-être de toute la famille.",
+        "en": "Our Belle Vie Premium Green Tea is carefully selected to offer you an exceptional taste experience. 100% natural, this superior quality tea releases delicate aromas and a refreshing flavor. Ideal for your relaxation moments or for preparing traditional mint tea. Rich in antioxidants, it contributes to the well-being of the whole family."
+      },
+      "ingredients": {
+        "fr": "Thé vert 100% (Camellia sinensis)",
+        "en": "100% Green tea (Camellia sinensis)"
+      },
+      "nutritionalInfo": {
+        "energy": "1 kcal/100ml infusé",
+        "proteins": "0g",
+        "carbs": "0g",
+        "fats": "0g",
+        "fiber": "0g"
+      },
+      "packaging": ["25g", "100g", "250g"],
+      "origin": "Chine",
+      "certification": ["100% Naturel"],
       "shelfLife": "24 mois"
     }
   ]
