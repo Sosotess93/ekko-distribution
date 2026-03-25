@@ -38,7 +38,10 @@
   "products": [
     {
       "id": "poulet-entier",
-      "slug": { "fr": "poulet-entier", "en": "whole-chicken" },
+      "slug": {
+        "fr": "poulet-entier",
+        "en": "whole-chicken"
+      },
       "brandId": "belle-vie",
       "category": "poultry",
       "images": [
@@ -70,15 +73,56 @@
         "fats": "15g",
         "fiber": "0g"
       },
-      "packaging": ["700g", "800g", "900g–1.5kg", "1.6kg–1.8kg"],
+      "packaging": [
+        "700g",
+        "800g",
+        "900g–1.5kg",
+        "1.6kg–1.8kg"
+      ],
       "packagingDetails": "Sac plastique · IPBF · Cartons 10–14 pièces (9,8–18kg)",
-      "origin": "Brésil",
-      "certification": ["Halal", "ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
+      "certification": [
+        "Halal",
+        "ISO 22000",
+        "HACCP"
+      ],
+      "shelfLife": "18 mois",
+      "packagingTable": [
+        {
+          "type": "Sac plastique",
+          "unitWeight": "0,7 kg",
+          "piecesPerCarton": "14",
+          "cartonWeight": "9,8 kg",
+          "freezingMethod": "IPBF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "0,8 kg",
+          "piecesPerCarton": "14",
+          "cartonWeight": "11,2 kg",
+          "freezingMethod": "IPBF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "0,9 – 1,5 kg",
+          "piecesPerCarton": "10",
+          "cartonWeight": "9 – 15 kg",
+          "freezingMethod": "IPBF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "1,6 – 1,8 kg",
+          "piecesPerCarton": "10",
+          "cartonWeight": "16 – 18 kg",
+          "freezingMethod": "IPBF"
+        }
+      ]
     },
     {
       "id": "filet-de-poulet",
-      "slug": { "fr": "filet-de-poulet", "en": "chicken-breast" },
+      "slug": {
+        "fr": "filet-de-poulet",
+        "en": "chicken-breast"
+      },
       "brandId": "belle-vie",
       "category": "poultry",
       "images": [
@@ -109,15 +153,101 @@
         "fats": "1.5g",
         "fiber": "0g"
       },
-      "packaging": ["0.9kg", "2kg", "2.5kg", "5kg", "7.5kg", "14kg", "500kg"],
+      "packaging": [
+        "0.9kg",
+        "2kg",
+        "2.5kg",
+        "5kg",
+        "7.5kg",
+        "14kg",
+        "500kg"
+      ],
       "packagingDetails": "Barquette · Sac plastique · Sous vide · Carton · Jumbo-carton · IQF & BQF",
-      "origin": "Brésil",
-      "certification": ["Halal", "ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
+      "certification": [
+        "Halal",
+        "ISO 22000",
+        "HACCP"
+      ],
+      "shelfLife": "18 mois",
+      "packagingTable": [
+        {
+          "type": "Barquette",
+          "unitWeight": "0,9 kg",
+          "piecesPerCarton": "12",
+          "cartonWeight": "10,8 kg",
+          "freezingMethod": "BQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "2 kg",
+          "piecesPerCarton": "6",
+          "cartonWeight": "12 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "2,5 kg",
+          "piecesPerCarton": "6",
+          "cartonWeight": "15 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "5 kg",
+          "piecesPerCarton": "2",
+          "cartonWeight": "10 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "7,5 kg",
+          "piecesPerCarton": "2",
+          "cartonWeight": "15 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Sous vide",
+          "unitWeight": "2 kg",
+          "piecesPerCarton": "6",
+          "cartonWeight": "12 kg",
+          "freezingMethod": "BQF"
+        },
+        {
+          "type": "Sous vide",
+          "unitWeight": "2,5 kg",
+          "piecesPerCarton": "4",
+          "cartonWeight": "10 kg",
+          "freezingMethod": "BQF"
+        },
+        {
+          "type": "Sous vide",
+          "unitWeight": "7,5 kg",
+          "piecesPerCarton": "2",
+          "cartonWeight": "15 kg",
+          "freezingMethod": "BQF"
+        },
+        {
+          "type": "Carton",
+          "unitWeight": "–",
+          "piecesPerCarton": "–",
+          "cartonWeight": "14 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Jumbo-carton",
+          "unitWeight": "–",
+          "piecesPerCarton": "–",
+          "cartonWeight": "500 kg",
+          "freezingMethod": "IQF"
+        }
+      ]
     },
     {
       "id": "pilon-de-poulet",
-      "slug": { "fr": "pilon-de-poulet", "en": "chicken-drumsticks" },
+      "slug": {
+        "fr": "pilon-de-poulet",
+        "en": "chicken-drumsticks"
+      },
       "brandId": "belle-vie",
       "category": "poultry",
       "images": [
@@ -148,15 +278,64 @@
         "fats": "11g",
         "fiber": "0g"
       },
-      "packaging": ["0.9kg", "1kg", "2.5kg", "14kg", "500kg"],
+      "packaging": [
+        "0.9kg",
+        "1kg",
+        "2.5kg",
+        "14kg",
+        "500kg"
+      ],
       "packagingDetails": "Barquette · Sac plastique · Carton · Jumbo-carton · IQF & BQF",
-      "origin": "Brésil",
-      "certification": ["Halal", "ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
+      "certification": [
+        "Halal",
+        "ISO 22000",
+        "HACCP"
+      ],
+      "shelfLife": "18 mois",
+      "packagingTable": [
+        {
+          "type": "Barquette",
+          "unitWeight": "0,9 kg",
+          "piecesPerCarton": "12",
+          "cartonWeight": "10,8 kg",
+          "freezingMethod": "BQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "1 kg",
+          "piecesPerCarton": "12",
+          "cartonWeight": "12 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "2,5 kg",
+          "piecesPerCarton": "6",
+          "cartonWeight": "15 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Carton",
+          "unitWeight": "–",
+          "piecesPerCarton": "–",
+          "cartonWeight": "14 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Jumbo-carton",
+          "unitWeight": "–",
+          "piecesPerCarton": "–",
+          "cartonWeight": "500 kg",
+          "freezingMethod": "IQF"
+        }
+      ]
     },
     {
       "id": "aile-de-poulet",
-      "slug": { "fr": "ailes-de-poulet", "en": "chicken-wings" },
+      "slug": {
+        "fr": "ailes-de-poulet",
+        "en": "chicken-wings"
+      },
       "brandId": "belle-vie",
       "category": "poultry",
       "images": [
@@ -187,15 +366,80 @@
         "fats": "13g",
         "fiber": "0g"
       },
-      "packaging": ["0.9kg", "1kg", "2.5kg", "5kg", "7.5kg", "14kg", "500kg"],
+      "packaging": [
+        "0.9kg",
+        "1kg",
+        "2.5kg",
+        "5kg",
+        "7.5kg",
+        "14kg",
+        "500kg"
+      ],
       "packagingDetails": "Barquette · Sac plastique · Sous vide · Carton · Jumbo-carton · IQF & BQF",
-      "origin": "Brésil",
-      "certification": ["Halal", "ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
+      "certification": [
+        "Halal",
+        "ISO 22000",
+        "HACCP"
+      ],
+      "shelfLife": "18 mois",
+      "packagingTable": [
+        {
+          "type": "Barquette",
+          "unitWeight": "0,9 kg",
+          "piecesPerCarton": "12",
+          "cartonWeight": "10,8 kg",
+          "freezingMethod": "BQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "1 kg",
+          "piecesPerCarton": "12",
+          "cartonWeight": "12 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "2,5 kg",
+          "piecesPerCarton": "6",
+          "cartonWeight": "15 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Sac plastique",
+          "unitWeight": "5 kg",
+          "piecesPerCarton": "2",
+          "cartonWeight": "10 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Sous vide",
+          "unitWeight": "7,5 kg",
+          "piecesPerCarton": "2",
+          "cartonWeight": "15 kg",
+          "freezingMethod": "BQF"
+        },
+        {
+          "type": "Carton",
+          "unitWeight": "–",
+          "piecesPerCarton": "–",
+          "cartonWeight": "14 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Jumbo-carton",
+          "unitWeight": "–",
+          "piecesPerCarton": "–",
+          "cartonWeight": "500 kg",
+          "freezingMethod": "IQF"
+        }
+      ]
     },
     {
       "id": "quart-de-cuisse",
-      "slug": { "fr": "quart-de-cuisse", "en": "chicken-leg-quarters" },
+      "slug": {
+        "fr": "quart-de-cuisse",
+        "en": "chicken-leg-quarters"
+      },
       "brandId": "belle-vie",
       "category": "poultry",
       "images": [
@@ -226,15 +470,40 @@
         "fats": "12g",
         "fiber": "0g"
       },
-      "packaging": ["14kg", "500kg"],
+      "packaging": [
+        "14kg",
+        "500kg"
+      ],
       "packagingDetails": "Carton · Jumbo-carton · IQF",
-      "origin": "Brésil",
-      "certification": ["Halal", "ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
+      "certification": [
+        "Halal",
+        "ISO 22000",
+        "HACCP"
+      ],
+      "shelfLife": "18 mois",
+      "packagingTable": [
+        {
+          "type": "Carton",
+          "unitWeight": "–",
+          "piecesPerCarton": "–",
+          "cartonWeight": "14 kg",
+          "freezingMethod": "IQF"
+        },
+        {
+          "type": "Jumbo-carton",
+          "unitWeight": "–",
+          "piecesPerCarton": "–",
+          "cartonWeight": "500 kg",
+          "freezingMethod": "IQF"
+        }
+      ]
     },
     {
       "id": "huile-tournesol",
-      "slug": { "fr": "huile-de-tournesol", "en": "sunflower-oil" },
+      "slug": {
+        "fr": "huile-de-tournesol",
+        "en": "sunflower-oil"
+      },
       "brandId": "belle-vie",
       "category": "oils",
       "images": [
@@ -263,15 +532,78 @@
         "fats": "100g",
         "fiber": "0g"
       },
-      "packaging": ["0.81L", "1L", "4L", "5L", "10L", "20L"],
+      "packaging": [
+        "0.81L",
+        "1L",
+        "4L",
+        "5L",
+        "10L",
+        "20L"
+      ],
       "packagingDetails": "Bouteille plastique · Bidon plastique",
-      "origin": "Ukraine",
-      "certification": ["ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
+      "certification": [
+        "ISO 22000",
+        "HACCP"
+      ],
+      "shelfLife": "18 mois",
+      "packagingTable": [
+        {
+          "type": "Bouteille",
+          "volume": "0,81 L",
+          "netWeight": "745 g",
+          "qtyPerTruck": "27 225",
+          "qtyPerContainer": "31 560"
+        },
+        {
+          "type": "Bouteille",
+          "volume": "1 L",
+          "netWeight": "920 g",
+          "qtyPerTruck": "22 275",
+          "qtyPerContainer": "25 740"
+        },
+        {
+          "type": "Bouteille",
+          "volume": "4 L",
+          "netWeight": "3 680 g",
+          "qtyPerTruck": "5 445",
+          "qtyPerContainer": "6 350"
+        },
+        {
+          "type": "Bouteille",
+          "volume": "5 L",
+          "netWeight": "4 600 g",
+          "qtyPerTruck": "4 356",
+          "qtyPerContainer": "5 388"
+        },
+        {
+          "type": "Bouteille",
+          "volume": "10 L",
+          "netWeight": "9 200 g",
+          "qtyPerTruck": "2 232",
+          "qtyPerContainer": "2 576"
+        },
+        {
+          "type": "Bidon plastique",
+          "volume": "10 L",
+          "netWeight": "9 200 g",
+          "qtyPerTruck": "2 112",
+          "qtyPerContainer": "2 620"
+        },
+        {
+          "type": "Bidon plastique",
+          "volume": "20 L",
+          "netWeight": "18 400 g",
+          "qtyPerTruck": "1 296",
+          "qtyPerContainer": "2 620"
+        }
+      ]
     },
     {
       "id": "huile-tournesol-friture",
-      "slug": { "fr": "huile-de-tournesol-friture", "en": "sunflower-frying-oil" },
+      "slug": {
+        "fr": "huile-de-tournesol-friture",
+        "en": "sunflower-frying-oil"
+      },
       "brandId": "belle-vie",
       "category": "oils",
       "images": [
@@ -300,15 +632,54 @@
         "fats": "100g",
         "fiber": "0g"
       },
-      "packaging": ["5L", "10L", "20L"],
+      "packaging": [
+        "5L",
+        "10L",
+        "20L"
+      ],
       "packagingDetails": "Bouteille plastique · Bidon plastique",
-      "origin": "Ukraine",
-      "certification": ["ISO 22000", "HACCP"],
-      "shelfLife": "18 mois"
+      "certification": [
+        "ISO 22000",
+        "HACCP"
+      ],
+      "shelfLife": "18 mois",
+      "packagingTable": [
+        {
+          "type": "Bouteille",
+          "volume": "5 L",
+          "netWeight": "4 600 g",
+          "qtyPerTruck": "4 356",
+          "qtyPerContainer": "5 388"
+        },
+        {
+          "type": "Bouteille",
+          "volume": "10 L",
+          "netWeight": "9 200 g",
+          "qtyPerTruck": "2 232",
+          "qtyPerContainer": "2 576"
+        },
+        {
+          "type": "Bidon plastique",
+          "volume": "10 L",
+          "netWeight": "9 200 g",
+          "qtyPerTruck": "2 112",
+          "qtyPerContainer": "2 620"
+        },
+        {
+          "type": "Bidon plastique",
+          "volume": "20 L",
+          "netWeight": "18 400 g",
+          "qtyPerTruck": "1 296",
+          "qtyPerContainer": "2 620"
+        }
+      ]
     },
     {
       "id": "farine-ble-t55",
-      "slug": { "fr": "farine-de-ble-t55", "en": "wheat-flour-t55" },
+      "slug": {
+        "fr": "farine-de-ble-t55",
+        "en": "wheat-flour-t55"
+      },
       "brandId": "belle-vie",
       "category": "flour",
       "images": [
@@ -337,15 +708,36 @@
         "fats": "1g",
         "fiber": "3g"
       },
-      "packaging": ["1kg", "2kg"],
+      "packaging": [
+        "1kg",
+        "2kg"
+      ],
       "packagingDetails": "Sac papier",
-      "origin": "France",
-      "certification": ["ISO 22000"],
-      "shelfLife": "12 mois"
+      "certification": [
+        "ISO 22000"
+      ],
+      "shelfLife": "12 mois",
+      "packagingTable": [
+        {
+          "type": "Sac papier",
+          "netWeight": "1 000 g",
+          "qtyPerTruck": "21 760",
+          "qtyPerContainer": "2 580"
+        },
+        {
+          "type": "Sac papier",
+          "netWeight": "2 000 g",
+          "qtyPerTruck": "10 880",
+          "qtyPerContainer": "1 290"
+        }
+      ]
     },
     {
       "id": "oeuf-de-poule",
-      "slug": { "fr": "oeuf-de-poule", "en": "fresh-eggs" },
+      "slug": {
+        "fr": "oeuf-de-poule",
+        "en": "fresh-eggs"
+      },
       "brandId": "belle-vie",
       "category": "eggs",
       "images": [
@@ -374,14 +766,22 @@
         "fats": "11g",
         "fiber": "0g"
       },
-      "packaging": ["30 œufs", "180 œufs", "360 œufs"],
-      "origin": "France",
-      "certification": ["ISO 22000"],
+      "packaging": [
+        "30 œufs",
+        "180 œufs",
+        "360 œufs"
+      ],
+      "certification": [
+        "ISO 22000"
+      ],
       "shelfLife": "28 jours"
     },
     {
       "id": "oeuf-en-poudre",
-      "slug": { "fr": "oeuf-en-poudre", "en": "powdered-eggs" },
+      "slug": {
+        "fr": "oeuf-en-poudre",
+        "en": "powdered-eggs"
+      },
       "brandId": "belle-vie",
       "category": "eggs",
       "images": [
@@ -410,17 +810,28 @@
         "fats": "43g",
         "fiber": "0g"
       },
-      "packaging": ["1kg", "5kg", "25kg"],
-      "origin": "France",
-      "certification": ["ISO 22000", "HACCP"],
+      "packaging": [
+        "1kg",
+        "5kg",
+        "25kg"
+      ],
+      "certification": [
+        "ISO 22000",
+        "HACCP"
+      ],
       "shelfLife": "24 mois"
     },
     {
       "id": "the-vert-premium",
-      "slug": { "fr": "the-vert-premium", "en": "premium-green-tea" },
+      "slug": {
+        "fr": "the-vert-premium",
+        "en": "premium-green-tea"
+      },
       "brandId": "belle-vie",
       "category": "beverages",
-      "images": ["/images/products/belle-vie/the-vert.jpg"],
+      "images": [
+        "/images/products/belle-vie/the-vert.jpg"
+      ],
       "name": {
         "fr": "Thé Vert Premium",
         "en": "Premium Green Tea"
@@ -444,9 +855,14 @@
         "fats": "0g",
         "fiber": "0g"
       },
-      "packaging": ["25g", "100g", "250g"],
-      "origin": "Chine",
-      "certification": ["100% Naturel"],
+      "packaging": [
+        "25g",
+        "100g",
+        "250g"
+      ],
+      "certification": [
+        "100% Naturel"
+      ],
       "shelfLife": "24 mois"
     }
   ]

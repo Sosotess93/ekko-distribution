@@ -306,17 +306,6 @@ export default function ProductDetailClient({
                   <div className="divide-y divide-border">
                     <div className="flex items-center justify-between px-5 py-3.5">
                       <div className="flex items-center gap-2.5">
-                        <MapPin size={16} className="text-orange shrink-0" />
-                        <span className="text-sm text-text-muted">
-                          {locale === "fr" ? "Origine" : "Origin"}
-                        </span>
-                      </div>
-                      <span className="text-sm font-semibold text-text">
-                        {product.origin}
-                      </span>
-                    </div>
-                    <div className="flex items-center justify-between px-5 py-3.5">
-                      <div className="flex items-center gap-2.5">
                         <Clock size={16} className="text-orange shrink-0" />
                         <span className="text-sm text-text-muted">
                           {locale === "fr" ? "Conservation" : "Shelf life"}
@@ -360,23 +349,110 @@ export default function ProductDetailClient({
                   </div>
                 </div>
 
-                {/* Packaging Options */}
-                <div>
-                  <h3 className="text-sm font-bold text-green uppercase tracking-wider mb-3 flex items-center gap-2">
-                    <Box size={16} className="text-orange" />
-                    {locale === "fr" ? "Conditionnements disponibles" : "Available packaging"}
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {product.packaging.map((size) => (
-                      <span
-                        key={size}
-                        className="px-5 py-2.5 rounded-xl bg-white border border-border text-sm font-semibold text-text hover:border-orange/40 hover:bg-orange/5 transition-all cursor-pointer"
-                      >
-                        {size}
-                      </span>
-                    ))}
+                {/* Packaging Table */}
+                {product.packagingTable && product.packagingTable.length > 0 ? (
+                  <div className="bg-white rounded-2xl border border-border overflow-hidden">
+                    <div className="px-5 py-3.5 bg-green/5 border-b border-border">
+                      <h3 className="text-sm font-bold text-green uppercase tracking-wider flex items-center gap-2">
+                        <Box size={16} className="text-orange" />
+                        {locale === "fr" ? "Conditionnements disponibles" : "Available packaging"}
+                      </h3>
+                    </div>
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="border-b border-border bg-background/50">
+                            <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                              {locale === "fr" ? "Emballage" : "Packaging"}
+                            </th>
+                            {product.packagingTable[0].unitWeight && (
+                              <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                                {locale === "fr" ? "Poids unit." : "Unit weight"}
+                              </th>
+                            )}
+                            {product.packagingTable[0].volume && (
+                              <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                                {locale === "fr" ? "Volume" : "Volume"}
+                              </th>
+                            )}
+                            {product.packagingTable[0].netWeight && (
+                              <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                                {locale === "fr" ? "Poids net" : "Net weight"}
+                              </th>
+                            )}
+                            {product.packagingTable[0].piecesPerCarton && (
+                              <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                                {locale === "fr" ? "Pcs/carton" : "Pcs/carton"}
+                              </th>
+                            )}
+                            {product.packagingTable[0].cartonWeight && (
+                              <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                                {locale === "fr" ? "Poids/carton" : "Carton wt."}
+                              </th>
+                            )}
+                            {product.packagingTable[0].freezingMethod && (
+                              <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                                {locale === "fr" ? "Méthode" : "Method"}
+                              </th>
+                            )}
+                            {product.packagingTable[0].qtyPerTruck && (
+                              <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                                {locale === "fr" ? "Qté/camion" : "Qty/truck"}
+                              </th>
+                            )}
+                            {product.packagingTable[0].qtyPerContainer && (
+                              <th className="px-4 py-2.5 text-left font-semibold text-text-muted text-xs uppercase tracking-wider">
+                                {locale === "fr" ? "Qté/40ft" : "Qty/40ft"}
+                              </th>
+                            )}
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-border/50">
+                          {product.packagingTable.map((row, idx) => (
+                            <tr key={idx} className={idx % 2 === 0 ? "bg-white" : "bg-background/30"}>
+                              <td className="px-4 py-2.5 font-medium text-text">{row.type}</td>
+                              {row.unitWeight !== undefined && <td className="px-4 py-2.5 text-text-muted">{row.unitWeight}</td>}
+                              {row.volume !== undefined && <td className="px-4 py-2.5 text-text-muted">{row.volume}</td>}
+                              {row.netWeight !== undefined && <td className="px-4 py-2.5 text-text-muted">{row.netWeight}</td>}
+                              {row.piecesPerCarton !== undefined && <td className="px-4 py-2.5 text-text-muted">{row.piecesPerCarton}</td>}
+                              {row.cartonWeight !== undefined && <td className="px-4 py-2.5 text-text-muted">{row.cartonWeight}</td>}
+                              {row.freezingMethod !== undefined && (
+                                <td className="px-4 py-2.5">
+                                  <span className={`px-2 py-0.5 rounded-md text-xs font-bold ${
+                                    row.freezingMethod === 'IQF' ? 'bg-blue-50 text-blue-700' :
+                                    row.freezingMethod === 'BQF' ? 'bg-orange/10 text-orange' :
+                                    'bg-green/10 text-green'
+                                  }`}>
+                                    {row.freezingMethod}
+                                  </span>
+                                </td>
+                              )}
+                              {row.qtyPerTruck !== undefined && <td className="px-4 py-2.5 text-text-muted">{row.qtyPerTruck}</td>}
+                              {row.qtyPerContainer !== undefined && <td className="px-4 py-2.5 text-text-muted">{row.qtyPerContainer}</td>}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <div>
+                    <h3 className="text-sm font-bold text-green uppercase tracking-wider mb-3 flex items-center gap-2">
+                      <Box size={16} className="text-orange" />
+                      {locale === "fr" ? "Conditionnements disponibles" : "Available packaging"}
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      {product.packaging.map((size) => (
+                        <span
+                          key={size}
+                          className="px-5 py-2.5 rounded-xl bg-white border border-border text-sm font-semibold text-text hover:border-orange/40 hover:bg-orange/5 transition-all cursor-pointer"
+                        >
+                          {size}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 {/* CTA Buttons */}
                 <div className="space-y-3 pt-2">

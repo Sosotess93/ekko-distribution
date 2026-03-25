@@ -26,6 +26,18 @@ export interface NutritionalInfo {
   fiber: string;
 }
 
+export interface PackagingRow {
+  type: string;
+  unitWeight?: string;
+  piecesPerCarton?: string;
+  cartonWeight?: string;
+  freezingMethod?: string;
+  volume?: string;
+  netWeight?: string;
+  qtyPerTruck?: string;
+  qtyPerContainer?: string;
+}
+
 export interface Product {
   id: string;
   slug: LocalizedString;
@@ -38,12 +50,11 @@ export interface Product {
   ingredients: LocalizedString;
   nutritionalInfo: NutritionalInfo;
   packaging: string[];
-  origin: string;
+  packagingDetails?: string;
+  packagingTable?: PackagingRow[];
   certification: string[];
   shelfLife: string;
   reference?: string;
-  netWeight?: string;
-  drainedWeight?: string;
 }
 
 export interface ProductsData {
