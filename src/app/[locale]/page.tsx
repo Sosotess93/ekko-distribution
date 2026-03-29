@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import HeroSlider from "@/components/home/HeroSlider";
-import { OrganizationJsonLd } from "@/components/seo/JsonLd";
+import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
 import StatsSection from "@/components/home/StatsSection";
 import CategoriesSection from "@/components/home/CategoriesSection";
 import WhyUsSection from "@/components/home/WhyUsSection";
@@ -40,6 +40,7 @@ export default function HomePage() {
   return (
     <div className="overflow-hidden">
       <OrganizationJsonLd />
+      <WebSiteJsonLd />
       <HeroSlider />
       <StatsSection />
       <CategoriesSection />

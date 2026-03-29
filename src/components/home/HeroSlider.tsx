@@ -17,6 +17,16 @@ const SLIDE_IMAGES = [
   "/images/hero/slide-7.jpeg",
 ];
 
+const SLIDE_ALT = [
+  "Belle Vie farine de blé - Ekko Distribution export alimentaire Afrique",
+  "Huile de tournesol pure Belle Vie - qualité premium",
+  "Produits alimentaires Belle Vie - poulet huile œufs farine",
+  "Poulet entier certifié Halal Belle Vie - surgelé qualité",
+  "Produits certifiés ISO 22000 BRC - Ekko Distribution",
+  "Chaîne du froid maîtrisée - surgelés Belle Vie",
+  "Œufs frais Belle Vie - sélection rigoureuse qualité",
+];
+
 const SLIDE_DURATION = 5000;
 
 export default function HeroSlider() {
@@ -55,7 +65,7 @@ export default function HeroSlider() {
           className="absolute inset-0"
         >
           <div className="absolute inset-0">
-            <Image src={SLIDE_IMAGES[current]} alt="" fill sizes="100vw" className="object-cover object-center" priority={current === 0} quality={85} />
+            <Image src={SLIDE_IMAGES[current]} alt={SLIDE_ALT[current]} fill sizes="100vw" className="object-cover object-center" priority={current === 0} quality={85} />
           </div>
         </motion.div>
       </AnimatePresence>
