@@ -19,7 +19,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/ekko-distibution", label: "LinkedIn" },
   ];
 
   return (
